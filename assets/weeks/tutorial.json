@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Tulip", "sandra", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"sandra",
+		"max",
+		""
+	],
+	"weekBackground": "bench",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

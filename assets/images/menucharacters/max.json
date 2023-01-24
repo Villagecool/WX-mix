@@ -1,0 +1,11 @@
+{
+	"idle_anim": "BF idle dance",
+	"image": "menu_max",
+	"position": [
+		-100,
+		100
+	],
+	"flipX": false,
+	"scale": 0.7,
+	"confirm_anim": "BF idle dance"
+}
