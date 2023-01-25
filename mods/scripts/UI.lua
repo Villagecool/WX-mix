@@ -15,6 +15,20 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
+	makeLuaSprite('Health', 'healthbarSacorg')
+	setObjectCamera('Health', 'hud')
+	addLuaSprite('Health', true)
+	setObjectOrder('Health', getObjectOrder('healthBar') + 1)
+	setProperty('healthBar.visible', true)
+	setProperty('healthBarBG.visible', true)
+
+	makeLuaSprite('time', 'timebarSacorg')
+	setObjectCamera('time', 'hud')
+	addLuaSprite('time', true)
+	setObjectOrder('time', getObjectOrder('timeBar') + 1)
+	setProperty('timeBar.visible', true)
+	setProperty('timeBarBG.visible', true)
+
     setProperty('timeBar.color', rgbToHex(getProperty('dad.healthColorArray')))
 end
 
@@ -27,6 +41,10 @@ function formatTime(millisecond)
     return string.format("%01d:%02d", (seconds / 60) % 60, seconds % 60)  
 end
 function onUpdatePost()
+	setProperty('Health.x', getProperty('healthBar.x') - 55)
+	setProperty('Health.y', getProperty('healthBar.y') - 20)
+	setProperty('time.x', getProperty('timeBar.x') - 55)
+	setProperty('time.y', getProperty('timeBar.y') - 20)
     
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
