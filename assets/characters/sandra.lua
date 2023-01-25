@@ -6,10 +6,10 @@ function onCreatePost()
     setProperty('winIconBf.flipX', true)
     addLuaSprite('winIconBf', true)
     
-    makeLuaSprite('winIconDad', 'icons/icon-max-win', 0, 0)
+    makeLuaSprite('winIconDad', 'icons/icon-sandra-win', 0, 0)
     setProperty('winIconDad.visible', false)
     setObjectCamera('winIconDad', 'camHUD')
-    setProperty('winIconDad.flipX', true)
+    setProperty('winIconDad.flipX', false)
     addLuaSprite('winIconDad', true)
 end
 function onUpdate()

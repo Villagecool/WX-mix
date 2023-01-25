@@ -1,20 +1,25 @@
 {
-	"songs": [
-		["Tulip", "sandra", [165, 0, 77]]
-	],
-
+	"storyName": "Should Be A Walk In The Park",
+	"hideFreeplay": false,
+	"weekBackground": "bench",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
 	"weekCharacters": [
 		"sandra",
 		"max",
 		""
 	],
-	"weekBackground": "bench",
-
-	"storyName": "",
-	"weekBefore": "tutorial",
-	"weekName": "Tutorial",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"Tulip",
+			"sandra",
+			[
+				0,
+				80,
+				197
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "Part Week"
 }
