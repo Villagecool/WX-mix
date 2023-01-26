@@ -71,3 +71,8 @@ function round(x, n) --https://stackoverflow.com/questions/18313171/lua-rounding
     if x >= 0 then x = math.floor(x + 0.5) else x = math.ceil(x - 0.5) end
     return x / n
 end
+function onEvent(n,v1,v2)
+    if n == 'Change Character' then
+        addLuaScript('characters/'..v2)
+    end
+end
