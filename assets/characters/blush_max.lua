@@ -1,39 +1,47 @@
 
 function onCreatePost()
-    makeLuaSprite('winIconBf', 'icons/icon-max-win', 0, 0)
-    setProperty('winIconBf.visible', false)
-    setObjectCamera('winIconBf', 'camHUD')
-    setProperty('winIconBf.flipX', true)
-    addLuaSprite('winIconBf', true)
+    makeLuaSprite('winIconBfMaxBlush', 'icons/icon-max-win', 0, 0)
+    setProperty('winIconBfMaxBlush.visible', false)
+    setObjectCamera('winIconBfMaxBlush', 'camHUD')
+    setProperty('winIconBfMaxBlush.flipX', true)
+    addLuaSprite('winIconBfMaxBlush', true)
     
-    makeLuaSprite('winIconDad', 'icons/icon-max-win', 0, 0)
-    setProperty('winIconDad.visible', false)
-    setObjectCamera('winIconDad', 'camHUD')
-    setProperty('winIconDad.flipX', true)
-    addLuaSprite('winIconDad', true)
+    makeLuaSprite('winIconDadMaxBlush', 'icons/icon-max-win', 0, 0)
+    setProperty('winIconDadMaxBlush.visible', false)
+    setObjectCamera('winIconDadMaxBlush', 'camHUD')
+    setProperty('winIconDadMaxBlush.flipX', true)
+    addLuaSprite('winIconDadMaxBlush', true)
 end
 function onUpdate()
     --win icons should be in mods/images/icons, and be separate from the normal icon sheet
-    --it should be named dadName-win
+    --it should be named dadMaxName-win
     if getHp() > 80 then
         if getProperty("boyfriend.curCharacter") == 'blush_max' then
-            setProperty('winIconBf.visible', true)
+            setProperty('winIconBfMaxBlush.visible', true)
             setProperty('iconP1.visible', false)
-            syncObjs('winIconBf', 'iconP1')
+            setProperty('iconP1.alpha', 0)
+            syncObjs('winIconBfMaxBlush', 'iconP1')
+        else
+            setProperty('winIconBfMaxBlush.visible', false)
         end
     else
-        setProperty('winIconBf.visible', false)
+        setProperty('winIconBfMaxBlush.visible', false)
         setProperty('iconP1.visible', true)
+        setProperty('iconP1.alpha', 1)
     end
     if getHp() < 20 then
         if getProperty("dad.curCharacter") == 'blush_max' then
-            setProperty('winIconDad.visible', true)
+            setProperty('winIconDadMaxBlush.visible', true)
             setProperty('iconP2.visible', false)
-            syncObjs('winIconDad', 'iconP2')
+            setProperty('iconP2.alpha', 0)
+            syncObjs('winIconDadMaxBlush', 'iconP2')
+        else
+            setProperty('winIconBfMaxBlush.visible', false)
         end
     else
-        setProperty('winIconDad.visible', false)
+        setProperty('winIconDadMaxBlush.visible', false)
         setProperty('iconP2.visible', true)
+        setProperty('iconP2.alpha', 1)
     end
 end
 function getHp()
@@ -45,5 +53,5 @@ function syncObjs(getter, setter)
     setProperty(getter..'.scale.x', getProperty(setter..'.scale.x'))
     setProperty(getter..'.scale.y', getProperty(setter..'.scale.y'))
     setProperty(getter..'.angle', getProperty(setter..'.angle'))
-    setObjectOrder(getter, getObjectOrder(setter))
+    setObjectOrder(getter, getObjectOrder(setter)+1)
 end

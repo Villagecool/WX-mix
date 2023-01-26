@@ -55,7 +55,7 @@ function onUpdatePost()
 	end
     if hits < 1 then
         setProperty('scoreTxt.text', 'Score: 0 | Misses: 0 | Health: 50% | Rating: ?')
-        elseif misses < 1 then
+    elseif misses < 1 then
         setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
     else
         setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) Clear')
