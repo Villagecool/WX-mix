@@ -1,6 +1,6 @@
 
 function onCreatePost()
-    makeLuaSprite('winIconBf', 'icons/icon-max-sad-win', 0, 0)
+    makeLuaSprite('winIconBf', 'icons/icon-max-win', 0, 0)
     setProperty('winIconBf.visible', false)
     setObjectCamera('winIconBf', 'camHUD')
     setProperty('winIconBf.flipX', true)
@@ -9,28 +9,24 @@ function onCreatePost()
     makeLuaSprite('winIconDad', 'icons/icon-max-sad-win', 0, 0)
     setProperty('winIconDad.visible', false)
     setObjectCamera('winIconDad', 'camHUD')
-    setProperty('winIconDad.flipX', true)
+    setProperty('winIconDad.flipX', false)
     addLuaSprite('winIconDad', true)
 end
 function onUpdate()
     --win icons should be in mods/images/icons, and be separate from the normal icon sheet
     --it should be named dadName-win
-    if getHp() > 80 then
         if getProperty("boyfriend.curCharacter") == 'depression_max' then
             setProperty('winIconBf.visible', true)
             setProperty('iconP1.visible', false)
             syncObjs('winIconBf', 'iconP1')
-        end
     else
         setProperty('winIconBf.visible', false)
         setProperty('iconP1.visible', true)
     end
-    if getHp() < 20 then
         if getProperty("dad.curCharacter") == 'depression_max' then
             setProperty('winIconDad.visible', true)
             setProperty('iconP2.visible', false)
             syncObjs('winIconDad', 'iconP2')
-        end
     else
         setProperty('winIconDad.visible', false)
         setProperty('iconP2.visible', true)
