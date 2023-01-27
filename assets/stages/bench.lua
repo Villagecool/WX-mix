@@ -43,3 +43,9 @@ function onCreate()
 end
 -- dad: 348, 356
 -- bf: 448, 356
+function onCreatePost()
+	--color = 'F9CDA7'
+	--doTweenColor('shadeBf', 'boyfriend', color, 0.01, 'circIn')
+	--doTweenColor('shadeDad', 'dad', color, 0.01, 'circIn')
+	--doTweenColor('shadeGf', 'gf', color, 0.01, 'circIn')
+end

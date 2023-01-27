@@ -49,8 +49,12 @@ function onUpdatePost()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') then
+			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.00625');
+			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored
+				setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true); --Miss has no penalties
+			end
+        else
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
-
 		end
 	end
     if hits < 1 then
