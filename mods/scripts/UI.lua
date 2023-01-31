@@ -15,6 +15,11 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
+    makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
+    setObjectCamera('iconP3', 'camHUD')
+    setProperty('iconP3.flipX', false)
+    addLuaSprite('iconP3', true)
+
 	makeLuaSprite('Health', 'healthbarSacorg')
 	setObjectCamera('Health', 'hud')
 	addLuaSprite('Health', true)
@@ -40,7 +45,14 @@ function formatTime(millisecond)
 
     return string.format("%01d:%02d", (seconds / 60) % 60, seconds % 60)  
 end
+local lastHealth = 1
 function onUpdatePost()
+    --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
+            syncObjs('iconP3', 'iconP2')
+            setProperty('iconP3.width', 150)
+            setProperty('iconP3.width', 150)
+            
+    setProperty('iconP3.flipX', not mustHitSection)
 	setProperty('Health.x', getProperty('healthBar.x') - 55)
 	setProperty('Health.y', getProperty('healthBar.y') - 20)
 	setProperty('time.x', getProperty('timeBar.x') - 55)
@@ -79,4 +91,12 @@ function onEvent(n,v1,v2)
     if n == 'Change Character' then
         addLuaScript('characters/'..v2)
     end
+end
+function syncObjs(getter, setter)
+    setProperty(getter..'.x', getProperty(setter..'.x')+50)
+    setProperty(getter..'.y', getProperty(setter..'.y')-70)
+    setProperty(getter..'.scale.x', getProperty(setter..'.scale.x'))
+    setProperty(getter..'.scale.y', getProperty(setter..'.scale.y'))
+    setProperty(getter..'.angle', getProperty(setter..'.angle'))
+    setObjectOrder(getter, getObjectOrder(setter)-2)
 end
