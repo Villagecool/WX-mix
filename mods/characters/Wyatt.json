@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "WyattIdleAlt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "WyattIdle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "WyattDown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-40
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "WyattDownAlt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				22
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "WyattUp0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				20
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "WyattUpAlt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "WyattRight0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				0
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "WyattRightAlt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "WyattLeft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-10
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "WyattLeftAlt",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Wyatt",
+	"position": [
+		0,
+		380
+	],
+	"healthicon": "bois",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

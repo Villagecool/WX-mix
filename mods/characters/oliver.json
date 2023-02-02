@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "OliverIdleAlt"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "OliverIdle0"
+		},
+		{
+			"offsets": [
+				-10,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "OliverDown0"
+		},
+		{
+			"offsets": [
+				-10,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "OliverDownAlt"
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "OliverUp0"
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "OliverUpAlt"
+		},
+		{
+			"offsets": [
+				-20,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "OliverRight0"
+		},
+		{
+			"offsets": [
+				-10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "OliverRightAlt"
+		},
+		{
+			"offsets": [
+				20,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "OliverLeft0"
+		},
+		{
+			"offsets": [
+				20,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "OliverLeftAlt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/oliver",
+	"position": [
+		0,
+		330
+	],
+	"healthicon": "bois",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
