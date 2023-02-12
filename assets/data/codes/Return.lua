@@ -1,0 +1,4 @@
+--function onEndSong()
+--     loadSong('Codes')
+--     return Function_Stop
+--end
