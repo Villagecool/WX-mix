@@ -62,7 +62,7 @@
 		0,
 		270
 	],
-	"healthicon": "max",
+	"healthicon": "max-happy",
 	"flip_x": true,
 	"healthbar_colors": [
 		255,

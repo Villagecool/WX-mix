@@ -26,10 +26,18 @@ function onCreate()
 	scaleObject('10', 1.5, 1.5)
 	scaleObject('11', 1.5, 1.5)
 	scaleObject('12', 1.5, 1.5)
+
+	
+	setScrollFactor('1', 0.9, 0.9);
+	setScrollFactor('2', 0.9, 0.9);
+	setScrollFactor('3', 0.9, 0.9);
+	setScrollFactor('4', 0.9, 0.9);
+	setScrollFactor('4.5', 0.9, 0.9);
+	setScrollFactor('5', 0.9, 0.9);
 	
 	addLuaSprite('1', false)
-	addLuaSprite('2', false)
 	addLuaSprite('3', false)
+	addLuaSprite('2', false)
 	addLuaSprite('4', false)
 	addLuaSprite('4.5', false)
 	addLuaSprite('5', false)

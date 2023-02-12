@@ -15,7 +15,13 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
+    if getProperty("girlfriend.curCharacter") == 'sandra' then
     makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
+    elseif getProperty("girlfriend.curCharacter") == 'gf' then
+        makeLuaSprite('iconP3', 'icons/icon-gf', 0, 0)
+    else
+        setProperty('iconP3.visible', false)
+    end
     setObjectCamera('iconP3', 'camHUD')
     setProperty('iconP3.flipX', false)
     addLuaSprite('iconP3', true)

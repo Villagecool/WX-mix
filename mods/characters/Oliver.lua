@@ -1,7 +1,7 @@
 local gf = false;
 local duet = false
 local rr = 1.2
-local anm = 'idle'
+local anim = 'idle'
 local del = 0;
 local SkidSing = true
 local WyattSing = false
@@ -16,7 +16,7 @@ function makeOffsets(object)
 end
 function onCreate()
 	makeOffsets()
-	makeAnimatedLuaSprite('Wyatt','characters/wyatt',200,443)
+	makeAnimatedLuaSprite('Wyatt','characters/wyatt',getProperty('dad.x')+100,getProperty('dad.y')-50)
 	addAnimationByPrefix('Wyatt','idle','WyattIdleAlt',24,false)
 	addAnimationByPrefix('Wyatt','singLEFT','WyattLeftAlt',24,false)
 	addAnimationByPrefix('Wyatt','singDOWN','WyattDownAlt',24,false)
@@ -31,6 +31,7 @@ function onCreate()
 
 	addLuaSprite('Wyatt',false)
 	objectPlayAnimation('Wyatt',anim,false)
+    setObjectOrder('Wyatt', 5)
 
 
 
@@ -46,8 +47,8 @@ function onBeatHit()
 
 end
 
-function onUpdate()
-	for i=0,getProperty('notes.length') do
+function onUpdate(elapsed)
+	for i = 0, getProperty('notes.length')-1 do
 		--Check if the note is an Instakill Note
 		if SkidSing == false and not getPropertyFromGroup('notes', i, 'mustHit') then
 			setPropertyFromGroup('notes', i, 'noAnimation', true); --Change texture
@@ -55,7 +56,6 @@ function onUpdate()
 			setPropertyFromGroup('notes', i, 'noAnimation', false); --Change texture
 		end
 	end
-    setObjectOrder('Wyatt', getObjectOrder('dad')+3)
 	if del > 0 then
 		del = del - 1;
 	end
