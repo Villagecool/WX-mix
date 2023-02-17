@@ -15,13 +15,8 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
-    if getProperty("girlfriend.curCharacter") == 'sandra' then
-    makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
-    elseif getProperty("girlfriend.curCharacter") == 'gf' then
-        makeLuaSprite('iconP3', 'icons/icon-gf', 0, 0)
-    else
-        setProperty('iconP3.visible', false)
-    end
+        makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
+        setProperty('iconP3.visible', true)
     setObjectCamera('iconP3', 'camHUD')
     setProperty('iconP3.flipX', false)
     addLuaSprite('iconP3', true)
@@ -55,8 +50,8 @@ local lastHealth = 1
 function onUpdatePost()
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
             syncObjs('iconP3', 'iconP2')
-            setProperty('iconP3.width', 150)
-            setProperty('iconP3.width', 150)
+            setProperty('iconP3.alpha', getProperty('gf.alpha'))
+            setProperty('iconP3.visible', getProperty('gf.visible'))
             
     setProperty('iconP3.flipX', not mustHitSection)
 	setProperty('Health.x', getProperty('healthBar.x') - 55)

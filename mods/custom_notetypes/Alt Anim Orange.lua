@@ -6,4 +6,8 @@ function onCreate()
 		end
 	end
 end
-		
+function opponentNoteHit(id, d, noteType, isSustainNote)
+	if noteType == 'Alt Anim Orange' and getProperty('health') > 0.2 then
+		setProperty('health', getProperty('health')-0.1)
+	end
+end

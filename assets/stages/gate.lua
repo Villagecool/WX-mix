@@ -1,5 +1,5 @@
 function onCreate()
-	makeLuaSprite('1', 'gate/sky', -900, -650);
+	makeLuaSprite('1', 'gate/sky', -600, -650);
 	makeLuaSprite('2', 'gate/ground', -600, -350);
 	makeLuaSprite('3', 'gate/backtrees', -600, -350);
 	makeLuaSprite('4', 'gate/gate', -600, -350);
@@ -7,7 +7,7 @@ function onCreate()
 	makeLuaSprite('6', 'gate/frontLight', -600, -350);
 	makeLuaSprite('7', 'gate/frontbush', -600, -350);
 	
-	scaleObject('1', 3, 3)
+	scaleObject('1', 2, 2)
 	scaleObject('2', 3, 3)
 	scaleObject('3', 3, 3)
 	scaleObject('4', 3, 3)
@@ -29,3 +29,7 @@ function onCreate()
 end
 -- dad: 348, 356
 -- bf: 448, 356
+function onCreatePost()
+	doTweenColor('rrr', 'boyfriend', '96ACBC', 0.1, 'linear')
+	doTweenColor('rr5r', 'gf', '96ACBC', 0.1, 'linear')
+end
