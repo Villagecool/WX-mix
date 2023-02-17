@@ -14,6 +14,7 @@ local timeBarTypes = {
     end
 }
 
+local lastHealth = 0
 function onCreatePost()
         makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
         setProperty('iconP3.visible', true)
@@ -48,8 +49,15 @@ function formatTime(millisecond)
 end
 local lastHealth = 1
 function onUpdatePost()
+    --if lastHealth == getProperty('health') then
+    --    --setProperty('dad.scale.x',  1)
+    --else
+    --    setProperty('iconP2.scale.x', getProperty('iconP2.scale.x')*1.2)
+    --    setProperty('iconP1.scale.x', getProperty('iconP1.scale.x')*1.2)
+    --end
+    lastHealth = getProperty('health')
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
-            syncObjs('iconP3', 'iconP2')
+            syncObjs('iconP3', 'iconP2', 50,-70)
             setProperty('iconP3.alpha', getProperty('gf.alpha'))
             setProperty('iconP3.visible', getProperty('gf.visible'))
             
@@ -64,7 +72,7 @@ function onUpdatePost()
 		if getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') then
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.00625');
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored
-				setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true); --Miss has no penalties
+				--setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true); --Miss has no penalties
 			end
         else
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
@@ -93,9 +101,9 @@ function onEvent(n,v1,v2)
         addLuaScript('characters/'..v2)
     end
 end
-function syncObjs(getter, setter)
-    setProperty(getter..'.x', getProperty(setter..'.x')+50)
-    setProperty(getter..'.y', getProperty(setter..'.y')-70)
+function syncObjs(getter, setter, xoffset, yoffset)
+    setProperty(getter..'.x', getProperty(setter..'.x')+xoffset)
+    setProperty(getter..'.y', getProperty(setter..'.y')+yoffset)
     setProperty(getter..'.scale.x', getProperty(setter..'.scale.x'))
     setProperty(getter..'.scale.y', getProperty(setter..'.scale.y'))
     setProperty(getter..'.angle', getProperty(setter..'.angle'))

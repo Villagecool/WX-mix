@@ -48,6 +48,7 @@ function onBeatHit()
 end
 
 function onUpdate(elapsed)
+	setProperty('Wyatt.color', getProperty('dad.color'))
 	for i = 0, getProperty('notes.length')-1 do
 		--Check if the note is an Instakill Note
 		if SkidSing == false and not getPropertyFromGroup('notes', i, 'mustHit') then

@@ -32,4 +32,5 @@ end
 function onCreatePost()
 	doTweenColor('rrr', 'boyfriend', '96ACBC', 0.1, 'linear')
 	doTweenColor('rr5r', 'gf', '96ACBC', 0.1, 'linear')
+	doTweenColor('rr52r', 'dad', 'FFFFC9', 0.1, 'linear')
 end
