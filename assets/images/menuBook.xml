@@ -1,20 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="menuBook.png"><SubTexture name="menuBook normal0000" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0000" x="1128" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0001" x="0" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0002" x="1128" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0003" x="0" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0004" x="1128" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0005" x="2256" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0006" x="2256" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnRight0007" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-
-<SubTexture name="menuBook turnLeft0007" x="1128" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0006" x="0" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0005" x="1128" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0004" x="0" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0003" x="1128" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0002" x="2256" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0001" x="2256" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<SubTexture name="menuBook turnLeft0000" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menuBook.png">
+    <!-- Created with Adobe Animate version I DONT FUCKING KNOW LMAO -->
+	<!-- http://www.adobe.com/products/animate.html -->
+    <SubTexture name="menuBook normal0000" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0000" x="1128" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0001" x="0" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0002" x="1128" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0003" x="0" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0004" x="1128" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0005" x="2256" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0006" x="2256" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnRight0007" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0007" x="1128" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0006" x="0" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0005" x="1128" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0004" x="0" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0003" x="1128" y="1318" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0002" x="2256" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0001" x="2256" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
+    <SubTexture name="menuBook turnLeft0000" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
 </TextureAtlas>

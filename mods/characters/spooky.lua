@@ -82,7 +82,7 @@ function opponentNoteHit(id, d, noteType, isSustainNote)
 		if d == 3 then
 		anim = 'singRIGHT'..alt
 		end
-		if WyattSing then
+		if WyattSing or noteType == 'WyattSing' then
 			objectPlayAnimation('Wyatt',anim,true)
 			setProperty('Wyatt.offset.x', offsets[d].x);
 			setProperty('Wyatt.offset.y', offsets[d].y);
