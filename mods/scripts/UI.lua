@@ -50,7 +50,6 @@ end
 local lastHealth = 1
 function onUpdatePost()
     --if lastHealth == getProperty('health') then
-    --    --setProperty('dad.scale.x',  1)
     --else
     --    setProperty('iconP2.scale.x', getProperty('iconP2.scale.x')*1.2)
     --    setProperty('iconP1.scale.x', getProperty('iconP1.scale.x')*1.2)

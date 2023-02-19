@@ -49,14 +49,14 @@ end
 
 function onUpdate(elapsed)
 	setProperty('Wyatt.color', getProperty('dad.color'))
-	for i = 0, getProperty('notes.length')-1 do
-		--Check if the note is an Instakill Note
-		if SkidSing == false and not getPropertyFromGroup('notes', i, 'mustHit') then
-			setPropertyFromGroup('notes', i, 'noAnimation', true); --Change texture
-		elseif SkidSing == true and not getPropertyFromGroup('notes', i, 'mustHit') then
-			setPropertyFromGroup('notes', i, 'noAnimation', false); --Change texture
-		end
-	end
+	--for i = 0, getProperty('notes.length')-1 do
+	--	--Check if the note is an Instakill Note
+	--	if SkidSing == false and not getPropertyFromGroup('notes', i, 'mustHit') then
+	--		setPropertyFromGroup('notes', i, 'noAnimation', true); --Change texture
+	--	elseif SkidSing == true and not getPropertyFromGroup('notes', i, 'mustHit') then
+	--		setPropertyFromGroup('notes', i, 'noAnimation', false); --Change texture
+	--	end
+	--end
 	if del > 0 then
 		del = del - 1;
 	end
@@ -90,13 +90,8 @@ function opponentNoteHit(id, d, noteType, isSustainNote)
 end
 
 function onEvent(name,value1,value2)
-	if name == 'Swap Skid n Pump' then
+	if name == 'Duet Skid n Pump' then
 		if value1 == 'true' then
-			SkidSing = true
-		elseif value1 == 'false' then
-			SkidSing = false
-		end
-		if value2 == 'true' then
 			WyattSing = true
 		elseif value2 == 'false' then
 			WyattSing = false

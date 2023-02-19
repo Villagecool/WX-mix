@@ -29,7 +29,7 @@ function onSongStart()
 	setTextFont('credsTxt2', 'AnnyantRoman.ttf')
 	setObjectCamera('credsTxt2', 'camOther')
 
-	makeLuaSprite('credsCompose', 'credits/'..composer, -80, 500)
+	makeLuaSprite('credsCompose', 'credits/'..composer, -80, 490)
 	setObjectCamera('credsCompose', 'camOther');
 	scaleObject('credsCompose', 0.5,0.5);
 	addLuaSprite('credsCompose', true)

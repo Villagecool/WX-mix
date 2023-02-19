@@ -1,0 +1,6 @@
+Does the screen white fade, like in Familiar Finale from Corruption Reimagined
+
+Value 1: 'a' to make the screen go white, 'b' to undo.
+Value 2: Fade In/Out Time.
+
+Script by Saltyboii#2461, edited by JacobsThings#5804
