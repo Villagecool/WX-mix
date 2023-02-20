@@ -77,8 +77,10 @@ function onUpdatePost()
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
 		end
 	end
-    if hits < 1 then
+    if hits < 1 and not botPlay then
         setProperty('scoreTxt.text', 'Score: 0 | Misses: 0 | Health: 50% | Rating: ?')
+    elseif botPlay then
+        setProperty('scoreTxt.text', 'Score: Bot | Misses: N/A | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: N/A' )
     elseif misses < 1 then
         setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
     else
