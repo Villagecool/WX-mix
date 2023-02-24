@@ -63,6 +63,8 @@ end
 function enter(com)
      if com == 'ACCESS IMAGE' then
           loadSong('dad-battle', 2)
+     elseif com == 'MENTAL' then
+          loadSong('mc-mental', 2)
      elseif com == 'HELP' then
           usedcommand = usedcommand..command..'\nShift to Reset\nESC to Go Back\nBackspace to reset line\n\nPS C:\\Users\\'..pcname..'>'
      else

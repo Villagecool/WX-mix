@@ -2,7 +2,7 @@
 	"songs": [
 		["Spookeez", "bois", [34, 51, 68]],
 		["South", "bois", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		["Festive", "bois", [34, 51, 68]]
 	],
 
 	"weekCharacters": [
@@ -18,5 +18,6 @@
 	"startUnlocked": true,
 
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hideFreeplay": false,
+	"category": "Story"
 }

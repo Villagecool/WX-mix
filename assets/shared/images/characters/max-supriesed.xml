@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="n_week.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF idle dance instancia 10000" x="0" y="0" width="308" height="406" frameX="0" frameY="-17" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10001" x="0" y="0" width="308" height="406" frameX="0" frameY="-17" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10002" x="308" y="0" width="307" height="406" frameX="-2" frameY="-18" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10003" x="308" y="0" width="307" height="406" frameX="-2" frameY="-18" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10004" x="615" y="0" width="307" height="411" frameX="-3" frameY="-13" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10005" x="615" y="0" width="307" height="411" frameX="-3" frameY="-13" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10006" x="0" y="411" width="311" height="423" frameX="-3" frameY="-1" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10007" x="0" y="411" width="311" height="423" frameX="-3" frameY="-1" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10008" x="311" y="411" width="311" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10009" x="622" y="411" width="314" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10010" x="622" y="411" width="314" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10011" x="622" y="411" width="314" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10012" x="622" y="411" width="314" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+	<SubTexture name="BF idle dance instancia 10013" x="622" y="411" width="314" height="424" frameX="-3" frameY="0" frameWidth="317" frameHeight="424"/>
+</TextureAtlas>
