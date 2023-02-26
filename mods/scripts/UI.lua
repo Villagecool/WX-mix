@@ -52,6 +52,7 @@ function formatTime(millisecond)
     return string.format("%01d:%02d", (seconds / 60) % 60, seconds % 60)  
 end
 local lastHealth = 1
+
 function onUpdatePost(elapsed)
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
             syncObjs('iconP3', 'iconP2')
@@ -78,15 +79,17 @@ function onUpdateScore(miss)
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
 		end
 	end
-    if hits < 1 and not botPlay then
-        setProperty('scoreTxt.text', 'Score: 0 | Misses: 0 | Health: 50% | Rating: ?')
-    elseif botPlay then
+    if getProperty('cpuControlled') then
         setProperty('scoreTxt.text', 'Score: Bot | Misses: N/A | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (Skill Issue) ' )
-    elseif misses < 1 then
-        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
     else
-        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) Clear')
-    
+        if hits < 1 then
+            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: ?')
+        elseif misses < 1 then
+            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
+        else
+            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) Clear')
+        
+        end
     end
 end
 
