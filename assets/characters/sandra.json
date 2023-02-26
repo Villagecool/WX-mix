@@ -107,7 +107,7 @@
 		430
 	],
 	"healthicon": "sandra",
-	"flip_x": true,
+	"flip_x": false,
 	"healthbar_colors": [
 		36,
 		123,

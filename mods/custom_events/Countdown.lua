@@ -28,10 +28,10 @@ function onTimerCompleted(tag)
 	if tag == 'count0' then
 		setProperty('ready.alpha', 1);
 		doTweenAlpha('count','ready', 0, 0.3,'smootherInOut');
-		runTimer('count', time)
+		runTimer('count1', time)
 		
 	end
-	if tag == 'count' then
+	if tag == 'count1' then
 		setProperty('set.alpha', 1);
 		doTweenAlpha('count2','set', 0, 0.3,'smootherInOut');
 		runTimer('count2', time)

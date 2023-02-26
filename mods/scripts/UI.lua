@@ -71,15 +71,17 @@ function onUpdateScore(miss)
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') then
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.00625');
-			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored
-				setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true); --Miss has no penalties
+			if getPropertyFromGroup('notes', i, 'mustPress') and not getProperty('cpuControlled') then --Doesn't let Dad/Opponent notes get ignored
+				setPropertyFromGroup('notes', i, 'ignoreNote', true); --Miss has no penalties
 			end
         else
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
 		end
 	end
-    if hits < 1 then
+    if hits < 1 and not botPlay then
         setProperty('scoreTxt.text', 'Score: 0 | Misses: 0 | Health: 50% | Rating: ?')
+    elseif botPlay then
+        setProperty('scoreTxt.text', 'Score: Bot | Misses: N/A | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (Skill Issue) ' )
     elseif misses < 1 then
         setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
     else

@@ -19,8 +19,4 @@
     <SubTexture name="menuBook turnLeft0002" x="2256" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
     <SubTexture name="menuBook turnLeft0001" x="2256" y="659" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
     <SubTexture name="menuBook turnLeft0000" x="0" y="0" width="1128" height="659" frameX="0" frameY="0" frameWidth="1128" frameHeight="659" />
-<<<<<<< HEAD
 </TextureAtlas>
-=======
-</TextureAtlas>
->>>>>>> 69c204514236014ade891887a7aba83773d39cec
