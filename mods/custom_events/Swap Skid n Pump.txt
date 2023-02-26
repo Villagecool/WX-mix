@@ -1,0 +1,2 @@
+value1: Skid/Oliver Sings: true/false
+value2: Pump/Wyatt Sings: true/false

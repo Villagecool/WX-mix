@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle-alt",
-			"loop": false,
-			"name": "OliverIdleAlt"
+			"fps": 24,
+			"name": "OliverIdleAlt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "OliverIdle0"
+			"fps": 24,
+			"name": "OliverIdle0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				-10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "OliverDown0"
+			"fps": 24,
+			"name": "OliverDown0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				-10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"loop": false,
-			"name": "OliverDownAlt"
+			"fps": 24,
+			"name": "OliverDownAlt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "OliverUp0"
+			"fps": 24,
+			"name": "OliverUp0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP-alt",
-			"loop": false,
-			"name": "OliverUpAlt"
+			"fps": 24,
+			"name": "OliverUpAlt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "OliverRight0"
+			"fps": 24,
+			"name": "OliverRight0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"loop": false,
-			"name": "OliverRightAlt"
+			"fps": 24,
+			"name": "OliverRightAlt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "OliverLeft0"
+			"fps": 24,
+			"name": "OliverLeft0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT-alt",
-			"loop": false,
-			"name": "OliverLeftAlt"
+			"fps": 24,
+			"name": "OliverLeftAlt",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -120,9 +120,9 @@
 	"healthicon": "bois",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		90,
+		51,
+		132
 	],
 	"camera_position": [
 		0,
