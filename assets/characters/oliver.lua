@@ -16,7 +16,7 @@ function makeOffsets(object)
 end
 function onCreate()
 	makeOffsets()
-	makeAnimatedLuaSprite('Wyatt','characters/wyatt',getProperty('dad.x')+100,getProperty('dad.y')-50)
+	makeAnimatedLuaSprite('Wyatt','characters/Wyatt',getProperty('dad.x')+100,getProperty('dad.y')-50)
 	addAnimationByPrefix('Wyatt','idle','WyattIdleAlt',24,false)
 	addAnimationByPrefix('Wyatt','singLEFT','WyattLeftAlt',24,false)
 	addAnimationByPrefix('Wyatt','singDOWN','WyattDownAlt',24,false)

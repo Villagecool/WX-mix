@@ -3,107 +3,131 @@
 		{
 			"loop": false,
 			"offsets": [
-				59,
-				-20
+				0,
+				0
 			],
-			"anim": "hey",
+			"anim": "idle-alt",
 			"fps": 24,
-			"name": "spooky kids YEAH!!",
+			"name": "OliverIdleAlt",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				130,
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "OliverIdle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
 				-10
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "note sing left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-130,
-				-14
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "spooky sing right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-50,
-				-130
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "spooky DOWN note",
+			"name": "OliverDown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-10
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "OliverDownAlt",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
 				0,
-				0
+				10
 			],
-			"fps": 12,
-			"anim": "danceLeft",
-			"indices": [
-				0,
-				2,
-				6
-			],
-			"name": "spooky dance idle"
+			"anim": "singUP",
+			"fps": 24,
+			"name": "OliverUp0",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
 				0,
-				0
+				10
 			],
-			"fps": 12,
-			"anim": "danceRight",
-			"indices": [
-				8,
-				10,
-				12,
-				14
-			],
-			"name": "spooky dance idle"
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "OliverUpAlt",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
 				-20,
-				26
+				0
 			],
+			"anim": "singRIGHT",
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "spooky UP NOTE"
+			"name": "OliverRight0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				0
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "OliverRightAlt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "OliverLeft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				10
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "OliverLeftAlt",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/spooky_kids_assets",
+	"image": "characters/Oliver",
 	"position": [
 		0,
-		200
+		330
 	],
-	"healthicon": "spooky",
+	"healthicon": "bois",
 	"flip_x": false,
 	"healthbar_colors": [
-		213,
-		126,
-		0
+		90,
+		51,
+		132
 	],
 	"camera_position": [
 		0,
 		0
 	],
-	"sing_duration": 4,
-	"scale": 1
+	"sing_duration": 6.1,
+	"scale": 0.9
 }

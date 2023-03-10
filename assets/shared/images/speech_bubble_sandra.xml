@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="speech_bubble_sandra.png"><SubTexture name="speech_bubble_sandra idle0000" x="521" y="0" width="499" height="281" frameX="-19" frameY="-34" frameWidth="521" frameHeight="340" />
+<SubTexture name="speech_bubble_sandra idle0001" x="0" y="340" width="255" height="146" frameX="-22" frameY="-176" frameWidth="521" frameHeight="340" />
+<SubTexture name="speech_bubble_sandra idle0002" x="255" y="340" width="276" height="139" frameX="0" frameY="-185" frameWidth="521" frameHeight="340" />
+<SubTexture name="speech_bubble_sandra idle0003" x="0" y="0" width="521" height="340" frameX="0" frameY="0" frameWidth="521" frameHeight="340" />
+</TextureAtlas>

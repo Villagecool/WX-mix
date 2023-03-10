@@ -1,5 +1,5 @@
 
-
+local maxCombo = 0
 local timeBarTypes = {
     ['song name'] = function()
         return formatTime(songLength - (getSongPosition() - noteOffset))
@@ -15,6 +15,12 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
+    makeLuaText('judgeCounter', 'Sicks: ', 0, 45, 350)
+    setTextSize('judgeCounter', 20)
+    setTextAlignment('judgeCounter', 'left')
+    setProperty('judgeCounter.y', 600)
+
+    addLuaText('judgeCounter')
     if getProperty("girlfriend.curCharacter") == 'sandra' then
     makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
     elseif getProperty("girlfriend.curCharacter") == 'gf' then
@@ -40,7 +46,7 @@ function onCreatePost()
 	setProperty('timeBar.visible', true)
 	setProperty('timeBarBG.visible', true)
 
-    setProperty('timeBar.color', rgbToHex(getProperty('dad.healthColorArray')))
+    --setProperty('timeBar.color', rgbToHex(getProperty('dad.healthColorArray')))
 end
 
 function rgbToHex(rgb) --https://www.codegrepper.com/code-examples/lua/rgb+to+hex+lua
@@ -54,10 +60,16 @@ end
 local lastHealth = 1
 
 function onUpdatePost(elapsed)
+	setProperty('combo', real_combo)
+	setProperty('songMisses', real_misses)
+    if getProperty('combo') > maxCombo then
+        maxCombo = getProperty('combo')
+    end
+    setTextString('judgeCounter', 'Sicks: ' .. getProperty('sicks')..'\nGoods: ' .. getProperty('goods')..'\nBads: ' .. getProperty('bads')..'\nShits: ' .. getProperty('shits')..'\nMax Combo: ' .. maxCombo)
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
-            syncObjs('iconP3', 'iconP2')
-            setProperty('iconP3.width', 150)
-            setProperty('iconP3.width', 150)
+    syncObjs('iconP3', 'iconP2')
+    setProperty('iconP3.width', 150)
+    setProperty('iconP3.width', 150)
             
     setProperty('iconP3.flipX', not mustHitSection)
 	setProperty('Health.x', getProperty('healthBar.x') - 55)
@@ -72,9 +84,9 @@ function onUpdateScore(miss)
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') then
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.00625');
-			if getPropertyFromGroup('notes', i, 'mustPress') and not getProperty('cpuControlled') then --Doesn't let Dad/Opponent notes get ignored
-				setPropertyFromGroup('notes', i, 'ignoreNote', true); --Miss has no penalties
-			end
+			--if getPropertyFromGroup('notes', i, 'mustPress') and not getProperty('cpuControlled') then --Doesn't let Dad/Opponent notes get ignored
+			--	setPropertyFromGroup('notes', i, 'ignoreNote', true); --Miss has no penalties
+			--end
         else
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
 		end
@@ -111,4 +123,18 @@ function syncObjs(getter, setter)
     setProperty(getter..'.scale.y', getProperty(setter..'.scale.y'))
     setProperty(getter..'.angle', getProperty(setter..'.angle'))
     setObjectOrder(getter, getObjectOrder(setter)-2)
+end
+local real_combo = 0
+local real_misses = 0
+function goodNoteHit(id, noteData, noteType, isSustainNote)
+	if not isSustainNote then
+		real_combo = real_combo + 1
+	end
+end
+function noteMiss(id, noteData, noteType, isSustainNote)
+	if not isSustainNote then
+		real_combo = 0
+		real_misses = real_misses+1
+	else
+	end
 end

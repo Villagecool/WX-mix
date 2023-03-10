@@ -1,0 +1,27 @@
+{
+	"storyName": "Should Be A Walk In The Park",
+	"hideFreeplay": false,
+	"weekBackground": "bench",
+	"weekBefore": "tutorial",
+	"category": "Extra",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"sandra",
+		"max",
+		""
+	],
+	"songs": [
+		[
+			"Beggin",
+			"wertes",
+			"vc-call",
+			[
+				0,
+				80,
+				197
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Part Week"
+}
