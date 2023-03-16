@@ -1,5 +1,7 @@
 
 local maxCombo = 0
+local real_combo = 0
+local real_misses = 0
 local timeBarTypes = {
     ['song name'] = function()
         return formatTime(songLength - (getSongPosition() - noteOffset))
@@ -124,8 +126,6 @@ function syncObjs(getter, setter)
     setProperty(getter..'.angle', getProperty(setter..'.angle'))
     setObjectOrder(getter, getObjectOrder(setter)-2)
 end
-local real_combo = 0
-local real_misses = 0
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if not isSustainNote then
 		real_combo = real_combo + 1

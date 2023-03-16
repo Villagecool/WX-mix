@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				45,
+				-26
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "GF_Cheer",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				38,
+				-19
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF_Idle",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				38,
+				-19
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF_Idle",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/skins/-_sandra",
+	"position": [
+		150,
+		180
+	],
+	"healthicon": "sandra",
+	"flip_x": false,
+	"healthbar_colors": [
+		36,
+		123,
+		192
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

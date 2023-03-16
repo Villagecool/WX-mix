@@ -3,87 +3,86 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-15,
+				-50
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "GF_Cheer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-29
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "GF_Sad"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				38,
+				-19
 			],
 			"anim": "danceLeft",
 			"fps": 24,
-			"name": "GF IDLE",
-			"indices": [
-				30,
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
-			]
+			"name": "GF_IdleLeft",
+			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
-				0,
-				0
+				38,
+				-19
 			],
 			"anim": "danceRight",
 			"fps": 24,
-			"name": "GF IDLE",
-			"indices": [
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
-			]
+			"name": "GF_IdleRight",
+			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
 				0,
-				0
+				-9
 			],
-			"anim": "singUP",
+			"anim": "danceLeft-alt",
 			"fps": 24,
-			"name": "GF IDLE",
+			"name": "GF_Happier_IdleLeft",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-4,
+				-9
+			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "GF_Happier_IdleRight",
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
-	"image": "characters/gfPixel",
+	"no_antialiasing": false,
+	"image": "characters/skins/Sandra_Pixel",
 	"position": [
+		150,
+		180
+	],
+	"healthicon": "sandra",
+	"flip_x": false,
+	"healthbar_colors": [
+		36,
+		123,
+		192
+	],
+	"camera_position": [
 		0,
 		0
 	],
-	"healthicon": "gf",
-	"flip_x": false,
-	"healthbar_colors": [
-		165,
-		0,
-		77
-	],
-	"camera_position": [
-		-20,
-		80
-	],
 	"sing_duration": 4,
-	"scale": 5.99999999999999
+	"scale": 1
 }

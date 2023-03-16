@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="money.png"><SubTexture name="money idle0000" x="0" y="0" width="195" height="297" frameX="-34" frameY="-30" frameWidth="270" frameHeight="353" />
+<SubTexture name="money idle0001" x="195" y="0" width="195" height="297" frameX="-34" frameY="-30" frameWidth="270" frameHeight="353" />
+<SubTexture name="money idle0002" x="390" y="0" width="195" height="202" frameX="-34" frameY="-125" frameWidth="270" frameHeight="353" />
+<SubTexture name="money idle0003" x="0" y="297" width="195" height="160" frameX="-34" frameY="-167" frameWidth="270" frameHeight="353" />
+<SubTexture name="money idle0004" x="195" y="297" width="195" height="147" frameX="-34" frameY="-180" frameWidth="270" frameHeight="353" />
+</TextureAtlas>

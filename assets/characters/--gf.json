@@ -1,0 +1,88 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-15,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "cheer",
+			"indices": [],
+			"name": "GF_Cheer"
+		},
+		{
+			"offsets": [
+				-20,
+				-29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "sad",
+			"name": "GF_Sad"
+		},
+		{
+			"offsets": [
+				38,
+				-19
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "GF_IdleLeft"
+		},
+		{
+			"offsets": [
+				38,
+				-19
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "GF_IdleRight"
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "danceLeft-alt",
+			"indices": [],
+			"name": "GF_Happier_IdleLeft"
+		},
+		{
+			"offsets": [
+				-4,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "danceRight-alt",
+			"indices": [],
+			"name": "GF_Happier_IdleRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/skins/-_sandra",
+	"position": [
+		150,
+		180
+	],
+	"healthicon": "sandra",
+	"flip_x": false,
+	"healthbar_colors": [
+		36,
+		123,
+		192
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
