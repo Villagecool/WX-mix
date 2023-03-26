@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nuzzus.png"><SubTexture name="nuzzus down0000" x="1374" y="0" width="167" height="410" frameX="-430" frameY="-149" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0000" x="504" y="447" width="168" height="443" frameX="-432" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0001" x="0" y="447" width="170" height="445" frameX="-435" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0002" x="512" y="0" width="171" height="446" frameX="-436" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0003" x="0" y="0" width="173" height="447" frameX="-438" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0004" x="173" y="0" width="171" height="447" frameX="-440" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0005" x="344" y="0" width="168" height="447" frameX="-440" frameY="-75" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0006" x="683" y="0" width="167" height="446" frameX="-439" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0007" x="850" y="0" width="167" height="446" frameX="-438" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0008" x="170" y="447" width="167" height="445" frameX="-436" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0009" x="337" y="447" width="167" height="445" frameX="-435" frameY="-76" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0010" x="672" y="447" width="167" height="443" frameX="-433" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0011" x="839" y="447" width="167" height="443" frameX="-432" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0012" x="1017" y="0" width="167" height="443" frameX="-431" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0013" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0014" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0015" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0016" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0017" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0018" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0019" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus idle0020" x="1017" y="443" width="167" height="443" frameX="-430" frameY="-77" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus left0000" x="0" y="892" width="379" height="430" frameX="-208" frameY="-96" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus left0001" x="379" y="892" width="379" height="430" frameX="-209" frameY="-96" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus right0000" x="758" y="892" width="260" height="417" frameX="-457" frameY="-88" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus right0001" x="1018" y="892" width="259" height="417" frameX="-458" frameY="-82" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus up0000" x="1184" y="0" width="190" height="438" frameX="-417" frameY="-64" frameWidth="1051" frameHeight="600" />
+<SubTexture name="nuzzus up0001" x="1184" y="438" width="190" height="437" frameX="-417" frameY="-51" frameWidth="1051" frameHeight="600" />
+</TextureAtlas>

@@ -2,6 +2,8 @@ local composer = ''
 function onCreatePost()
     if songName == 'Tulip' then
         composer = 'PhoenixPH'
+    elseif songName == 'Festive' then
+        composer = 'PhoenixPH'
     elseif songName == 'Spookeez' then
         composer = 'WerteX_390'
     else

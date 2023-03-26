@@ -8,6 +8,9 @@ function onBeatHit()
 
         setProperty('iconP2.angle', amount)
         doTweenAngle('iconLeftOPP', 'iconP2', 0, 0.15, ease)
+
+        setProperty('iconP3.angle', amount)
+        doTweenAngle('iconLeftGF', 'iconP3', 0, 0.15, ease)
     end
 
     if curBeat % 2 == 1 then
@@ -16,5 +19,8 @@ function onBeatHit()
 
         setProperty('iconP2.angle', -amount)
         doTweenAngle('iconLeftOPP2', 'iconP2', 0, 0.15, ease)
+
+        setProperty('iconP3.angle', -amount)
+        doTweenAngle('iconLeftGF', 'iconP3', 0, 0.15, ease)
     end
 end

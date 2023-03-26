@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["sussus nuzzus", "nuzzus", "bf", [34, 51, 68]]
+	],
+
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "halloween",
+
+	"storyName": "Spooky Month",
+	"category": "extra",
+	"weekName": "Sus Week",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

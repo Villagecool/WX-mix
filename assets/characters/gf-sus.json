@@ -1,33 +1,33 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				180,
 				-297
 			],
-			"loop": false,
-			"anim": "cheer",
 			"fps": 24,
-			"name": "Up",
-			"indices": []
+			"anim": "cheer",
+			"indices": [],
+			"name": "Up"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				180,
 				-270
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Idle"
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/skins/sandra_but_susa_abusa",
 	"position": [
-		-170,
-		0
+		60,
+		-30
 	],
 	"healthicon": "sandra",
 	"flip_x": false,

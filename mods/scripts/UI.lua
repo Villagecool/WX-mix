@@ -23,16 +23,16 @@ function onCreatePost()
     setProperty('judgeCounter.y', 600)
 
     addLuaText('judgeCounter')
-    if getProperty("girlfriend.curCharacter") == 'sandra' then
-    makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
-    elseif getProperty("girlfriend.curCharacter") == 'gf' then
-        makeLuaSprite('iconP3', 'icons/icon-gf', 0, 0)
-    else
-        setProperty('iconP3.visible', false)
-    end
-    setObjectCamera('iconP3', 'camHUD')
-    setProperty('iconP3.flipX', false)
-    addLuaSprite('iconP3', true)
+    --if getProperty("girlfriend.curCharacter") == 'sandra' then
+    --makeLuaSprite('iconP3', 'icons/icon-sandra-gf', 0, 0)
+    --elseif getProperty("girlfriend.curCharacter") == 'gf' then
+    --    makeLuaSprite('iconP3', 'icons/icon-gf', 0, 0)
+    --else
+    --    setProperty('iconP3.visible', false)
+    --end
+    --setObjectCamera('iconP3', 'camHUD')
+    --setProperty('iconP3.flipX', false)
+    --addLuaSprite('iconP3', true)
 
 	makeLuaSprite('Health', 'healthbarSacorg')
 	setObjectCamera('Health', 'hud')
@@ -62,18 +62,16 @@ end
 local lastHealth = 1
 
 function onUpdatePost(elapsed)
-	setProperty('combo', real_combo)
-	setProperty('songMisses', real_misses)
     if getProperty('combo') > maxCombo then
         maxCombo = getProperty('combo')
     end
     setTextString('judgeCounter', 'Sicks: ' .. getProperty('sicks')..'\nGoods: ' .. getProperty('goods')..'\nBads: ' .. getProperty('bads')..'\nShits: ' .. getProperty('shits')..'\nMax Combo: ' .. maxCombo)
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
-    syncObjs('iconP3', 'iconP2')
-    setProperty('iconP3.width', 150)
-    setProperty('iconP3.width', 150)
+    --syncObjs('iconP3', 'iconP2')
+    --setProperty('iconP3.width', 150)
+    --setProperty('iconP3.width', 150)
             
-    setProperty('iconP3.flipX', not mustHitSection)
+    --setProperty('iconP3.flipX', not mustHitSection)
 	setProperty('Health.x', getProperty('healthBar.x') - 55)
 	setProperty('Health.y', getProperty('healthBar.y') - 20)
 	setProperty('time.x', getProperty('timeBar.x') - 55)
@@ -125,16 +123,4 @@ function syncObjs(getter, setter)
     setProperty(getter..'.scale.y', getProperty(setter..'.scale.y'))
     setProperty(getter..'.angle', getProperty(setter..'.angle'))
     setObjectOrder(getter, getObjectOrder(setter)-2)
-end
-function goodNoteHit(id, noteData, noteType, isSustainNote)
-	if not isSustainNote then
-		real_combo = real_combo + 1
-	end
-end
-function noteMiss(id, noteData, noteType, isSustainNote)
-	if not isSustainNote then
-		real_combo = 0
-		real_misses = real_misses+1
-	else
-	end
 end
