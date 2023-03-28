@@ -84,6 +84,11 @@ function opponentNoteHit(id, d, noteType, isSustainNote)
 			objectPlayAnimation('Wyatt',anim,true)
 			setProperty('Wyatt.offset.x', offsets[d].x);
 			setProperty('Wyatt.offset.y', offsets[d].y);
+		elseif noteType == 'Alt Anim Orange' then
+			anim = 'singRIGHT-alt'
+			objectPlayAnimation('Wyatt',anim,true)
+			setProperty('Wyatt.offset.x', offsets[3].x);
+			setProperty('Wyatt.offset.y', offsets[3].y);
 		end
 end
 

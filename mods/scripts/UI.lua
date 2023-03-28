@@ -65,6 +65,9 @@ function onUpdatePost(elapsed)
     if getProperty('combo') > maxCombo then
         maxCombo = getProperty('combo')
     end
+    if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') then
+        triggerEvent('Play Animation', 'hey', 'bf')
+    end
     setTextString('judgeCounter', 'Sicks: ' .. getProperty('sicks')..'\nGoods: ' .. getProperty('goods')..'\nBads: ' .. getProperty('bads')..'\nShits: ' .. getProperty('shits')..'\nMax Combo: ' .. maxCombo)
     --doTweenX('moveHealthIcon', 'time', health*5, health/0.5, 'linear')
     --syncObjs('iconP3', 'iconP2')

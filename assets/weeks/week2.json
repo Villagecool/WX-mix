@@ -1,8 +1,35 @@
 {
 	"songs": [
-		["Spookeez", "bois", "max", [34, 51, 68]],
-		["South", "bois", "max", [34, 51, 68]],
-		["Festive", "bois", "max", [34, 51, 68]]
+		[
+			"Spookeez",
+			"bois",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		],
+		[
+			"South",
+			"bois",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		],
+		[
+			"Festive",
+			"bois",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		]
 	],
 
 	"weekCharacters": [

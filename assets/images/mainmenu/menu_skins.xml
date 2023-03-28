@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="skins.png"><SubTexture name="skins white0000" x="0" y="170" width="472" height="158" frameX="-107" frameY="-24" frameWidth="688" frameHeight="213" />
-<SubTexture name="skins white0001" x="470" y="0" width="471" height="160" frameX="-99" frameY="-27" frameWidth="688" frameHeight="213" />
-<SubTexture name="skins white0002" x="0" y="0" width="470" height="170" frameX="-96" frameY="-20" frameWidth="688" frameHeight="213" />
-<SubTexture name="skins basic0000" x="380" y="328" width="382" height="130" frameX="-152" frameY="-38" frameWidth="688" frameHeight="213" />
-<SubTexture name="skins basic0001" x="0" y="328" width="380" height="131" frameX="-146" frameY="-41" frameWidth="688" frameHeight="213" />
-<SubTexture name="skins basic0002" x="472" y="170" width="380" height="139" frameX="-144" frameY="-35" frameWidth="688" frameHeight="213" />
+<TextureAtlas imagePath="skins.png">
+<SubTexture name="skins white0000" x="731" y="0" width="812" height="120" frameX="-69" frameY="-8" frameWidth="946" frameHeight="136" />
+<SubTexture name="skins basic0000" x="681" y="597" width="771" height="113" frameX="-80" frameY="-11" frameWidth="946" frameHeight="136" />
 </TextureAtlas>

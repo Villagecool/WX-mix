@@ -2,6 +2,8 @@
 	"storyName": "Should Be A Walk In The Park",
 	"hideFreeplay": false,
 	"weekBackground": "bench",
+	"category": "Story",
+	"difficulties": "Normal, Old",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
 	"weekCharacters": [
@@ -14,11 +16,7 @@
 			"Tulip",
 			"sandra",
 			"max-blush",
-			[
-				0,
-				80,
-				197
-			]
+			[36, 123, 192]
 		]
 	],
 	"hideStoryMode": false,

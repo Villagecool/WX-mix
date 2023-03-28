@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				180,
-				-297
+				127,
+				-295
 			],
 			"fps": 24,
 			"anim": "cheer",
@@ -26,19 +26,19 @@
 	"no_antialiasing": false,
 	"image": "characters/skins/sandra_but_susa_abusa",
 	"position": [
-		60,
+		-30,
 		-30
 	],
-	"healthicon": "sandra",
-	"flip_x": false,
+	"healthicon": "sus-gf",
+	"flip_x": true,
 	"healthbar_colors": [
 		36,
 		123,
 		192
 	],
 	"camera_position": [
-		0,
-		240
+		-50,
+		260
 	],
 	"sing_duration": 4,
 	"scale": 0.7

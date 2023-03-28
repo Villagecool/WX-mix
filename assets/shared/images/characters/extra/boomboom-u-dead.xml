@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="boomboom-u-dead.png"><SubTexture name="ded0000" x="0" y="0" width="65" height="73" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0001" x="65" y="0" width="104" height="73" frameX="-4" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0002" x="0" y="73" width="120" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0003" x="169" y="0" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0004" x="169" y="73" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0005" x="0" y="146" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0006" x="129" y="146" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0007" x="0" y="219" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0008" x="129" y="219" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0009" x="298" y="0" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0010" x="298" y="73" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0011" x="298" y="146" width="129" height="73" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0012" x="298" y="219" width="129" height="71" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0013" x="0" y="292" width="129" height="51" frameX="0" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0014" x="120" y="73" width="25" height="9" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0015" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0016" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0017" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0018" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0019" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0020" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0021" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0022" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0023" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0024" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0025" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0026" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0027" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0028" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0029" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0030" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0031" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+<SubTexture name="ded0032" x="0" y="0" width="1" height="1" frameX="-18" frameY="0" frameWidth="129" frameHeight="73" />
+</TextureAtlas>
