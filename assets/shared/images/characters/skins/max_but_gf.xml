@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="max but gf.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF HEY!! instancia 10000" x="0" y="0" width="562" height="467" frameX="0" frameY="-7" frameWidth="571" frameHeight="476"/>
+	<SubTexture name="BF HEY!! instancia 10001" x="0" y="0" width="562" height="467" frameX="0" frameY="-7" frameWidth="571" frameHeight="476"/>
+	<SubTexture name="BF HEY!! instancia 10002" x="562" y="0" width="569" height="475" frameX="0" frameY="-1" frameWidth="571" frameHeight="476"/>
+	<SubTexture name="BF HEY!! instancia 10003" x="562" y="0" width="569" height="475" frameX="0" frameY="-1" frameWidth="571" frameHeight="476"/>
+	<SubTexture name="BF HEY!! instancia 10004" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10005" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10006" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10007" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10008" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10009" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10010" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10011" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10012" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10013" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10014" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10015" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10016" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10017" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10018" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10019" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10020" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10021" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10022" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10023" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10024" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF HEY!! instancia 10025" x="1131" y="0" width="571" height="476"/>
+	<SubTexture name="BF idle dance instancia 10000" x="0" y="476" width="564" height="454" frameX="-1" frameY="-23" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10001" x="0" y="476" width="564" height="454" frameX="-1" frameY="-23" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10002" x="564" y="476" width="565" height="454" frameX="-1" frameY="-23" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10003" x="564" y="476" width="565" height="454" frameX="-1" frameY="-23" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10004" x="1129" y="476" width="566" height="461" frameX="-1" frameY="-16" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10005" x="1129" y="476" width="566" height="461" frameX="-1" frameY="-16" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10006" x="0" y="937" width="570" height="476" frameX="-1" frameY="-1" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10007" x="0" y="937" width="570" height="476" frameX="-1" frameY="-1" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10008" x="570" y="937" width="570" height="477" frameX="-1" frameY="0" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10009" x="570" y="937" width="570" height="477" frameX="-1" frameY="0" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10010" x="570" y="937" width="570" height="477" frameX="-1" frameY="0" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10011" x="570" y="937" width="570" height="477" frameX="-1" frameY="0" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10012" x="570" y="937" width="570" height="477" frameX="-1" frameY="0" frameWidth="571" frameHeight="477"/>
+	<SubTexture name="BF idle dance instancia 10013" x="1140" y="937" width="571" height="477"/>
+</TextureAtlas>

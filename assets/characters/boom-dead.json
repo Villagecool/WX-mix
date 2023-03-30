@@ -2,13 +2,13 @@
 	"animations": [
 		{
 			"offsets": [
-				37,
+				41,
 				129
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "firstDeath",
-			"loop": false,
+			"indices": [],
 			"name": "ded"
 		},
 		{
@@ -16,10 +16,10 @@
 				36,
 				130
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
 			"anim": "deathLoop",
-			"loop": true,
+			"indices": [],
 			"name": "ded0015"
 		},
 		{
@@ -27,18 +27,18 @@
 				37,
 				129
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "deathConfirm",
-			"loop": false,
+			"indices": [],
 			"name": "ded0015"
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/extra/boomboom-u-dead",
 	"position": [
-		150,
-		470
+		-200,
+		430
 	],
 	"healthicon": "bf",
 	"flip_x": true,

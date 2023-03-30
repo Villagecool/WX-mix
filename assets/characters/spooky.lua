@@ -39,9 +39,7 @@ end
 
 function onBeatHit()
 	if curBeat % 2 == 0 then
-		objectPlayAnimation('Wyatt','idle',true)
-		setProperty('Wyatt.offset.x', offsets[4].x);
-		setProperty('Wyatt.offset.y', offsets[4].y);
+		characterPlayAnimation('Wyatt', 'idle', true, offsets[4].x, offsets[4].y);
 	end
 
 end
@@ -81,17 +79,17 @@ function opponentNoteHit(id, d, noteType, isSustainNote)
 		anim = 'singRIGHT'..alt
 		end
 		if WyattSing or noteType == 'WyattSing' then
-			objectPlayAnimation('Wyatt',anim,true)
-			setProperty('Wyatt.offset.x', offsets[d].x);
-			setProperty('Wyatt.offset.y', offsets[d].y);
+			characterPlayAnimation('Wyatt', anim, true, offsets[d].x, offsets[d].y);
 		elseif noteType == 'Alt Anim Orange' then
 			anim = 'singRIGHT-alt'
-			objectPlayAnimation('Wyatt',anim,true)
-			setProperty('Wyatt.offset.x', offsets[3].x);
-			setProperty('Wyatt.offset.y', offsets[3].y);
+			characterPlayAnimation('Wyatt', anim, true, offsets[3].x, offsets[3].y);
 		end
 end
-
+function characterPlayAnimation(char,anim,forced,offsetx,offsety)
+	setProperty(char..'.offset.x', offsetx);
+	setProperty(char..'.offset.y', offsety);
+	objectPlayAnimation(char,anim,forced)
+end
 function onEvent(name,value1,value2)
 	if name == 'Duet Skid n Pump' then
 		if value1 == 'true' then

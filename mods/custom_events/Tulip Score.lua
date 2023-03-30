@@ -9,7 +9,6 @@ function onEvent(n, v1, v2)
     if n == 'Tulip Score' then
         setProperty('scoreTxt.alpha', 0)
         makeLuaText('newScore', "Score: Who cares? You basically won! | Misses: Does it even matter? | Health: 200% | Accuracy: 110% | Rating: PFC", gameWidth, 0, getProperty('timeTxt.y') + 36)
-        setTextFont('newScore', "vcr.ttf")
         setTextSize('newScore', 18)
         setTextColor('newScore', 'BFBF1F')
         setTextBorder('newScore', 1.25, '121201')

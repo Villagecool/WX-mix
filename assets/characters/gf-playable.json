@@ -1,0 +1,117 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GF_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				118,
+				-79
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "GF_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				-40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GF_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				-4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "GF_Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "GF_Idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			],
+			"name": "GF_Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/playble_sandra",
+	"position": [
+		150,
+		180
+	],
+	"healthicon": "none",
+	"flip_x": false,
+	"healthbar_colors": [
+		36,
+		123,
+		192
+	],
+	"camera_position": [
+		-310,
+		110
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
