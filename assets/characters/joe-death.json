@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "takin L"
+		},
+		{
+			"offsets": [
+				-10,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "shaky L"
+		},
+		{
+			"offsets": [
+				-20,
+				-40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "reverse L"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/joe",
+	"position": [
+		0,
+		710
+	],
+	"healthicon": "joe",
+	"flip_x": false,
+	"healthbar_colors": [
+		99,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

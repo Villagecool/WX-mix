@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="credits.png">
-<SubTexture name="credits white0000" x="0" y="241" width="944" height="120" frameX="-82" frameY="-9" frameWidth="1087" frameHeight="136" />
-<SubTexture name="credits basic0000" x="0" y="936" width="901" height="113" frameX="-92" frameY="-11" frameWidth="1087" frameHeight="136" />
+<TextureAtlas imagePath="credits.png"><SubTexture name="credits white0000" x="0" y="0" width="593" height="68" frameX="-3" frameY="-3" frameWidth="599" frameHeight="71" />
+<SubTexture name="credits basic0000" x="0" y="68" width="580" height="66" frameX="-8" frameY="-3" frameWidth="599" frameHeight="71" />
 </TextureAtlas>

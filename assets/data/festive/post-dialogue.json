@@ -1,0 +1,316 @@
+{
+	"dialogue": [
+		{
+			"expression": "cute",
+			"text": "phew, that was intense",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "oh",
+			"text": "indeed. But it's getting late, we should be going to out homes",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "cute",
+			"text": "yeah, true. Can I accompany you?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "happi",
+			"text": "okay. Well, see you two around",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "bye!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "bois"
+		},
+		{
+			"expression": "talk",
+			"text": "Max and Sandra get to Max's house",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "very-happy",
+			"text": "this has been a great evening",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "happi",
+			"text": "yeah. The best I ever had",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "that song was pretty good. I felt like our voices became one",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "indeed",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra thinks a bit ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "talk",
+			"text": "AT bf's door",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "happi",
+			"text": "well, see you next time",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "worry",
+			"text": "wait!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "oh",
+			"text": "hm?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "come a bit closer",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "Max approach to gf",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "cute",
+			"text": "can I ask you something?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "oh",
+			"text": "umm... Sure. What is it?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra blushes a bit",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "very-cute",
+			"text": "would you... Like to be my boyfriend? I think I like you, max",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "Max blushes a lot",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "happi",
+			"text": "me? Your... B-b-boyfriend?!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "very-cute",
+			"text": "yeah! I think we could be such a great couple!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "happi",
+			"text": "o-o-of, course! I want to!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "cute",
+			"text": "great! Then It's settled. Oh, and one more thing ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "here, take this ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra gives Max her scarf",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "oh",
+			"text": "but that's yours ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "cute",
+			"text": "take it as a present.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "happi",
+			"text": "oh, thanks! ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "Max puts on the scarf",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "very-cute",
+			"text": "aaaw, you look so cute ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "happi",
+			"text": "thanks ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "talk",
+			"text": "well, I'll be heading home. But before that... ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra kisses bf's cheek",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "cute",
+			"text": "here you go! See you next time!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra leaves",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "talk",
+			"text": "Max was about to faint, but he got in his home",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "air"
+		}
+	]
+}

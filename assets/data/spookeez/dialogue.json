@@ -1,0 +1,268 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Sandra and Max are walkin",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "hey, max. Tell me a bit about yourself",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "well... I'm 18 years old, and... Uuuuh... I live on my own at my adoptive father's house, and I like to draw.",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": " wait wait wait... What do you mean with on your own? "
+		},
+		{
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max",
+			"boxState": "normal",
+			"expression": "oh",
+			"text": "he died too... So his home is mine now, hahaha... "
+		},
+		{
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "maaan, you're soo unlucky. I'm terribly sorry"
+		},
+		{
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max",
+			"boxState": "normal",
+			"expression": "oh",
+			"text": "don't worry, sandra. Now tell me something about you "
+		},
+		{
+			"expression": "very-happy",
+			"text": "well, I'm 19 years old, I like dancing and I'm allergic to cats, heheh...",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "happi",
+			"text": "aw man, that's too bad.",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "worry",
+			"text": "why?",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "i have a cat in my house",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "cute",
+			"text": " don't worry, as long as it's far away from me, I'll be okay",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "happi",
+			"text": "oh, cool!",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "A ball hits gf",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "worry",
+			"text": "ow!",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "are you okay?",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Sandra grabs the ball",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "worry",
+			"text": "where did this come from",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Skid and pump go to them",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver",
+			"text": "excuse us, that's our ball",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "wyatt",
+			"text": "sorry, I aimed at the wrong way",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "oh, no problem. What are your names?",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver",
+			"text": "I'm Oliver!",
+			"boxState": "nomal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "wyatt",
+			"text": "and I'm Wyatt!",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "very-happy",
+			"text": "nice to meet you two, Lil guys",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver",
+			"text": "hey, what's that in your pocket?",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "it's my microphone.",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "wyatt",
+			"text": "are you a rapper or something?",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "not at all. But maybe we could sing together, for fun",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Skid is so hyped",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver2",
+			"text": "Yes! Yes yes yes! Let's do it!",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "very-happy",
+			"text": "well, I'll just give you the beats. You do the rest.",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "happi",
+			"text": "thank you! Well, let's get to it, shall we?",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		}
+	]
+}

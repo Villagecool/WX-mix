@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf norm0001",
+			"idle_name": "gf norm0000"
+		},
+		{
+			"anim": "cute",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf cute0001",
+			"idle_name": "gf cute0000"
+		},
+		{
+			"anim": "very-cute",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf verycute0001",
+			"idle_name": "gf verycute0000"
+		},
+		{
+			"anim": "worry",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf worry0001",
+			"idle_name": "gf worry0000"
+		},
+		{
+			"anim": "very-happy",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf veryhappi0001",
+			"idle_name": "gf veryhappi0000"
+		}
+	],
+	"image": "sandra-dia"
+}

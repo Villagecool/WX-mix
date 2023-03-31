@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-50,
+				-10
+			],
+			"idle_offsets": [
+				-50,
+				-10
+			],
+			"loop_name": "bois  ",
+			"idle_name": "bois  "
+		},
+		{
+			"loop_name": "bois oliver0",
+			"idle_offsets": [
+				-100,
+				-30
+			],
+			"idle_name": "bois oliver0",
+			"anim": "oliver",
+			"loop_offsets": [
+				-100,
+				-30
+			]
+		},
+		{
+			"loop_name": "bois wyatt0",
+			"idle_offsets": [
+				-100,
+				-30
+			],
+			"idle_name": "bois wyatt0",
+			"anim": "wyatt",
+			"loop_offsets": [
+				-100,
+				-30
+			]
+		},
+		{
+			"loop_name": "bois oliver2",
+			"idle_offsets": [
+				-100,
+				-30
+			],
+			"idle_name": "bois oliver2",
+			"anim": "oliver2",
+			"loop_offsets": [
+				-100,
+				-30
+			]
+		}
+	],
+	"image": "bois"
+}

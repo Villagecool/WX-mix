@@ -1,0 +1,50 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				30,
+				10
+			],
+			"idle_offsets": [
+				30,
+				10
+			],
+			"loop_name": "max0",
+			"idle_name": "max0"
+		},
+		{
+			"anim": "talk2",
+			"loop_offsets": [
+				30,
+				10
+			],
+			"idle_offsets": [
+				30,
+				10
+			],
+			"loop_name": "max2",
+			"idle_name": "max2"
+		},
+		{
+			"anim": "blush",
+			"loop_offsets": [
+				30,
+				10
+			],
+			"idle_offsets": [
+				30,
+				10
+			],
+			"loop_name": "max blush",
+			"idle_name": "max blush"
+		}
+	],
+	"image": "tulip"
+}

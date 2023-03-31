@@ -1,0 +1,228 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Gf's walking along the park",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "happi",
+			"text": "aaahh.... Such a beautiful park and such a beautiful day",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": "Gf notices Bf sitting on a bench",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "meh",
+			"text": "hm? Who is that? He looks so sad. Maybe I should check on him",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": "Gf approaches to bf",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "happi",
+			"text": "hiya there! What's up?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": " Bf looks at gf",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "talk2",
+			"text": " oh.. Hi... Need something?",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "happi",
+			"text": "nah. I saw you were alone and I wanted to see if you were ok. Do you mind if I sit with you?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": " oh.. okay, why not.",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "talk",
+			"text": "Gf sits next to bf. They sit quietly for a bit",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "happi",
+			"text": "soooo... What your name?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk2",
+			"text": " I'm max. And you?",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "happi",
+			"text": "that's a pretty good name! Mine is Sandra. Nice to meet ya!",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk2",
+			"text": " i like that name, it's cute. And nice to meet you too...",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "happi",
+			"text": "thanks!",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": "Gf notices bf's mic in his pocket",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "talk",
+			"text": "hey, max. Is that a microphone on your pocket?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk2",
+			"text": " oh, this?",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "talk",
+			"text": "Bf shows his microphone",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "air"
+		},
+		{
+			"expression": "talk",
+			"text": " yeah... i like to bring it with me",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "talk",
+			"text": "do you like to sing?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "talk",
+			"text": " sometimes... But I'm not good...",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "talk",
+			"text": "maybe you could practice with me?",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "blush",
+			"text": " really?",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "happi",
+			"text": "yeah! Sounds fun",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		},
+		{
+			"expression": "blush",
+			"text": " well... I accept",
+			"boxState": "normal",
+			"sound": "bfDialouge",
+			"speed": 0.05,
+			"portrait": "max-t"
+		},
+		{
+			"expression": "happi",
+			"text": "yaay!",
+			"boxState": "normal",
+			"sound": "gfDialouge",
+			"speed": 0.05,
+			"portrait": "sandra-t"
+		}
+	]
+}

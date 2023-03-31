@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tulip.png"><SubTexture name="sandra meh0000" x="0" y="471" width="326" height="437" frameX="-23" frameY="-19" frameWidth="380" frameHeight="456" />
+<SubTexture name="sandra0000" x="326" y="471" width="326" height="437" frameX="-23" frameY="-19" frameWidth="380" frameHeight="456" />
+<SubTexture name="sandra happi0000" x="652" y="471" width="326" height="437" frameX="-23" frameY="-19" frameWidth="380" frameHeight="456" />
+<SubTexture name="sandra oh0000" x="1056" y="0" width="326" height="437" frameX="-23" frameY="-19" frameWidth="380" frameHeight="456" />
+<SubTexture name="max blush0000" x="0" y="0" width="352" height="471" frameX="-25" frameY="-20" frameWidth="404" frameHeight="515" />
+<SubTexture name="max0000" x="352" y="0" width="352" height="471" frameX="-25" frameY="-20" frameWidth="404" frameHeight="515" />
+<SubTexture name="max20000" x="704" y="0" width="352" height="471" frameX="-25" frameY="-20" frameWidth="404" frameHeight="515" />
+</TextureAtlas>

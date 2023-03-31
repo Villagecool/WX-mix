@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"expression": "very-happy",
+			"text": "hey, max! You did great!",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "yeah! Amazing!",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Max blushes",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "happi",
+			"text": "thanks, everybody",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver",
+			"text": "can we sing again?",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "wyatt",
+			"text": "pleaaase?",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "i don't know... It's getting late",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "cute",
+			"text": "come on, max",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Gf lays her head on Max's shoulder. Max blushes",
+			"boxState": "normal",
+			"portrait": "air",
+			"sound": "",
+			"speed": 0.05
+		},
+		{
+			"expression": "very-cute",
+			"text": "do it for mee",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oh",
+			"text": "well, one more song wouldn't hurt anyone, right? ",
+			"boxState": "normal",
+			"portrait": "max",
+			"sound": "bfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "very-happy",
+			"text": "yay! ",
+			"boxState": "normal",
+			"portrait": "sandra",
+			"sound": "gfDialouge",
+			"speed": 0.05
+		},
+		{
+			"expression": "oliver",
+			"text": "yipeee! Let's go!",
+			"boxState": "normal",
+			"portrait": "bois",
+			"sound": "",
+			"speed": 0.05
+		}
+	]
+}

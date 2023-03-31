@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "oh",
+			"text": "umm, sandra?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "worry",
+			"text": "tell me",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "talk",
+			"text": "wanna sing with me? Because I think a 2vs1 is a bit unfair ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "very-happy",
+			"text": "yeah! Of course I want to!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
+		},
+		{
+			"expression": "wyatt",
+			"text": "wow, looks like we have to take care of 2. you ready, bro?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "bois"
+		},
+		{
+			"expression": "oliver2",
+			"text": "yeah! Let's go!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "",
+			"portrait": "bois"
+		},
+		{
+			"expression": "talk",
+			"text": "no holding back ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "bfDialouge",
+			"portrait": "max"
+		}
+	]
+}

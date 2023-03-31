@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sandra-dia.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf cute0000" x="0" y="0" width="486" height="470"/>
+	<SubTexture name="gf cute0001" x="486" y="0" width="486" height="470"/>
+	<SubTexture name="gf verycute0000" x="0" y="512" width="486" height="470"/>
+	<SubTexture name="gf verycute0001" x="486" y="512" width="486" height="470"/>
+	<SubTexture name="gf worry0000" x="0" y="1024" width="486" height="470"/>
+	<SubTexture name="gf worry0001" x="486" y="1024" width="486" height="470"/>
+	<SubTexture name="gf norm0000" x="0" y="1536" width="486" height="470"/>
+	<SubTexture name="gf norm0001" x="486" y="1536" width="486" height="470"/>
+	<SubTexture name="gf veryhappi0000" x="0" y="2048" width="486" height="470"/>
+	<SubTexture name="gf veryhappi0001" x="486" y="2048" width="486" height="470"/>
+
+</TextureAtlas>

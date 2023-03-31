@@ -2,6 +2,7 @@ function onCreate()
 	makeLuaSprite('1', 'gate/sky', -600, -650);
 	makeLuaSprite('2', 'gate/ground', -600, -350);
 	makeLuaSprite('3', 'gate/backtrees', -600, -350);
+	makeLuaSprite('speaker', 'gate/speaker', -600, -350);
 	makeLuaSprite('4', 'gate/gate', -600, -350);
 	makeLuaSprite('5', 'gate/backLight', -600, -350);
 	makeLuaSprite('6', 'gate/frontLight', -600, -350);
@@ -17,6 +18,7 @@ function onCreate()
 
 	setScrollFactor('1', 0, 0);
 	setScrollFactor('3', 0.9, 0.9);
+	setScrollFactor('speaker', 0.9, 0.9);
 	setScrollFactor('7', 1.2, 1);
 	
 	addLuaSprite('1', false)
@@ -33,4 +35,7 @@ function onCreatePost()
 	doTweenColor('rrr', 'boyfriend', '96ACBC', 0.1, 'linear')
 	doTweenColor('rr5r', 'gf', '96ACBC', 0.1, 'linear')
 	doTweenColor('rr52r', 'dad', 'FFFFC9', 0.1, 'linear')
+	if getProperty('gf.curCharacter') == 'gf-playable' then
+		addLuaSprite('speaker', false)
+	end
 end

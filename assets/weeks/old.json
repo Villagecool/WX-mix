@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Tulip Old",
+			"sandra",
+			"max-blush",
+			[
+				90,
+				51,
+				123
+			]
+		],
+		[
+			"South Old",
+			"bois",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		]
+	],
+
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "halloween",
+
+	"storyName": "Spooky Month",
+	"weekBefore": "week1",
+	"weekName": "Week 2",
+	"difficulties": "Normal",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"category": "Old"
+}

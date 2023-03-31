@@ -3,7 +3,7 @@
 	"hideFreeplay": false,
 	"weekBackground": "bench",
 	"category": "Story",
-	"difficulties": "Normal, Old",
+	"difficulties": "Normal",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
 	"weekCharacters": [

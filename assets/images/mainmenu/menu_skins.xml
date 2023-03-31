@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="skins.png">
-<SubTexture name="skins white0000" x="731" y="0" width="812" height="120" frameX="-69" frameY="-8" frameWidth="946" frameHeight="136" />
-<SubTexture name="skins basic0000" x="681" y="597" width="771" height="113" frameX="-80" frameY="-11" frameWidth="946" frameHeight="136" />
+<TextureAtlas imagePath="skins.png"><SubTexture name="skins white0000" x="0" y="0" width="593" height="68" frameX="-3" frameY="-3" frameWidth="599" frameHeight="71" />
+<SubTexture name="skins basic0000" x="0" y="68" width="580" height="66" frameX="-8" frameY="-3" frameWidth="599" frameHeight="71" />
 </TextureAtlas>

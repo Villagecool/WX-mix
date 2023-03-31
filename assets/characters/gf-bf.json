@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				-250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance"
+		},
+		{
+			"offsets": [
+				18,
+				-256
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY!!"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				-256
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "BF HEY!!",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/skins/max_but_gf",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "max",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		246,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}
