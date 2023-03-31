@@ -14,14 +14,34 @@ function onCreate()
 
 end
 function goodNoteHit(id, direction, noteType, isSustainNote)
-	setProperty('stage.visible', true)
-	setProperty('stagebut8bit.visible', false)
-	triggerEvent('Change Character', 'gf','gf')
+	if difficulty == 1 then
+		setProperty('stage.visible', false)
+		setProperty('stagebut8bit.visible', true)
+		triggerEvent('Change Character', 'gf','gf-pixel')
+		setProperty('stage2-p.visible', true)
+		setProperty('stage2.visible', false)
+	else
+		setProperty('stage.visible', true)
+		setProperty('stagebut8bit.visible', false)
+		setProperty('stage2.visible', true)
+		setProperty('stage2-p.visible', false)
+		triggerEvent('Change Character', 'gf','gf')
+	end
 end
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-	setProperty('stage.visible', false)
-	setProperty('stagebut8bit.visible', true)
-	triggerEvent('Change Character', 'gf','gf-pixel')
+	if difficulty == 1 then
+		setProperty('stage.visible', true)
+		setProperty('stagebut8bit.visible', false)
+		setProperty('stage2.visible', true)
+		setProperty('stage2-p.visible', false)
+		triggerEvent('Change Character', 'gf','gf')
+	else
+		setProperty('stage.visible', false)
+		setProperty('stagebut8bit.visible', true)
+		setProperty('stage2-p.visible', true)
+		setProperty('stage2.visible', false)
+		triggerEvent('Change Character', 'gf','gf-pixel')
+	end
 end
 
 function onEvent(name, value_1, value_2)

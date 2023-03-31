@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="bois.png"><SubTexture name="bois  0000" x="0" y="0" width="564" height="449" frameX="-2" frameY="-20" frameWidth="569" frameHeight="480" />
-<SubTexture name="bois oliver20000" x="564" y="0" width="318" height="419" frameX="-18" frameY="-4" frameWidth="376" frameHeight="444" />
-<SubTexture name="bois oliver0000" x="0" y="449" width="323" height="419" frameX="-24" frameY="0" frameWidth="376" frameHeight="444" />
-<SubTexture name="bois wyatt0000" x="323" y="449" width="387" height="370" frameX="-25" frameY="-18" frameWidth="436" frameHeight="400" />
+<SubTexture name="bois oliver20000" x="0" y="449" width="318" height="419" frameX="-18" frameY="-4" frameWidth="376" frameHeight="444" />
+<SubTexture name="bois wyatt0000" x="0" y="868" width="387" height="370" frameX="-25" frameY="-18" frameWidth="436" frameHeight="400" />
+<SubTexture name="bois oliver0000" x="318" y="449" width="323" height="419" frameX="-24" frameY="0" frameWidth="376" frameHeight="444" />
+<SubTexture name="bois  0001" x="564" y="0" width="564" height="449" frameX="-2" frameY="-20" frameWidth="569" frameHeight="480" />
+<SubTexture name="bois oliver20001" x="641" y="449" width="318" height="419" frameX="-18" frameY="-4" frameWidth="376" frameHeight="444" />
+<SubTexture name="bois oliver0001" x="1128" y="0" width="323" height="419" frameX="-24" frameY="0" frameWidth="376" frameHeight="444" />
+<SubTexture name="bois wyatt0001" x="387" y="868" width="387" height="370" frameX="-25" frameY="-18" frameWidth="436" frameHeight="400" />
 </TextureAtlas>

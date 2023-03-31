@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Test", "max-pixel", "bf", [234, 1, 255]]
+	],
+
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "halloween",
+
+	"difficulties": "Normal, Pixel",
+	"storyName": "Spooky Month",
+	"category": "extra",
+	"weekName": "Sus Week",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

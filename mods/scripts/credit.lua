@@ -5,6 +5,8 @@ function onCreatePost()
         composer = 'PhoenixPH'
     elseif songName == 'Tulip Old' then
         composer = 'PhoenixPH'
+    elseif songName == 'Test' then
+        composer = 'kawaisprite'
     elseif songName == 'South Old' then
         composer = 'WerteX_390'
     elseif songName == 'South' then

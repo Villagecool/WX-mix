@@ -1,63 +1,63 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		0,
 		50
 	],
+	"dialogue_pos": "left",
 	"scale": 1.25,
+	"image": "bois",
 	"animations": [
 		{
+			"idle_offsets": [
+				-50,
+				-10
+			],
+			"loop_offsets": [
+				-50,
+				-10
+			],
 			"anim": "talk",
-			"loop_offsets": [
-				-50,
-				-10
-			],
-			"idle_offsets": [
-				-50,
-				-10
-			],
-			"loop_name": "bois  ",
-			"idle_name": "bois  "
+			"idle_name": "bois  0001",
+			"loop_name": "bois  0000"
 		},
 		{
-			"loop_name": "bois oliver0",
-			"idle_offsets": [
+			"loop_offsets": [
 				-100,
 				-30
 			],
-			"idle_name": "bois oliver0",
 			"anim": "oliver",
-			"loop_offsets": [
-				-100,
-				-30
-			]
-		},
-		{
-			"loop_name": "bois wyatt0",
 			"idle_offsets": [
 				-100,
 				-30
 			],
-			"idle_name": "bois wyatt0",
+			"loop_name": "bois oliver0000",
+			"idle_name": "bois oliver0001"
+		},
+		{
+			"loop_offsets": [
+				-100,
+				-30
+			],
 			"anim": "wyatt",
-			"loop_offsets": [
-				-100,
-				-30
-			]
-		},
-		{
-			"loop_name": "bois oliver2",
 			"idle_offsets": [
 				-100,
 				-30
 			],
-			"idle_name": "bois oliver2",
-			"anim": "oliver2",
+			"loop_name": "bois wyatt0000",
+			"idle_name": "bois wyatt0001"
+		},
+		{
 			"loop_offsets": [
 				-100,
 				-30
-			]
+			],
+			"anim": "oliver2",
+			"idle_offsets": [
+				-100,
+				-30
+			],
+			"loop_name": "bois oliver20000",
+			"idle_name": "bois oliver20001"
 		}
-	],
-	"image": "bois"
+	]
 }
