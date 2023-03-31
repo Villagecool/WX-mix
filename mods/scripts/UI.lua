@@ -41,7 +41,7 @@ function onCreatePost()
 	setProperty('healthBar.visible', true)
 	setProperty('healthBarBG.visible', true)
 
-	makeLuaSprite('time', 'timebarSacorg')
+	makeLuaSprite('time', 'healthbarSacorg')
 	setObjectCamera('time', 'hud')
 	addLuaSprite('time', true)
 	setObjectOrder('time', getObjectOrder('timeBar') + 1)
