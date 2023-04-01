@@ -1,6 +1,7 @@
 
 local pcname = os.getenv('USERNAME')
 local ffi = require("ffi")
+local currentBeat = 0
 -- replace 0x00000000 with whatever color i dont care
 --02FF02
 --0C0C0C
@@ -47,6 +48,7 @@ function transWindow()
 	scaleObject('blue', 0.2, 0.2);
 	addLuaSprite('blue', false);
     screenCenter('blue', 'xy');
+	doTweenY('MovePlactform','camGame',-10,0.5,'sineInOut')
 
     setProperty("defaultCamZoom",0.7)
     doTweenZoom('camz','camGame',0.7,0.4,'sineInOut')
@@ -82,7 +84,21 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.y", OGY)
 end
 function onTweenCompleted(name)
+    if name == 'MovePlactform' then
+		doTweenY('MovePlactform2','camGame',5,0.5,'sineInOut')
+	end
+    if name == 'MovePlactform2' then
+		doTweenY('MovePlactform','camGame',-5,0.5,'sineInOut')
+	end
     if name == 'camz' then
       	 setProperty("defaultCamZoom",getProperty('camGame.zoom')) 
     end
+end
+function onUpdatePost(elapsed)
+	--currentBeat = (songPos/5000)*(curBpm/60)
+	
+    setProperty('blue.angle', getProperty('blue.angle')+5)
+
+    --setProperty('stage2.y', -140 - 100*math.sin((curStep+12*12)*math.pi))
+    setProperty('stage2-p.y', getProperty('stage2.y'))
 end

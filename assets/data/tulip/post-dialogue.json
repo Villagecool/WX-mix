@@ -1,140 +1,140 @@
 {
 	"dialogue": [
 		{
-			"expression": "talk",
+			"expression": "very-happy",
+			"text": "wow, that was such a beautiful song!",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "wow, that was such a beautiful song!"
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "i agree",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "max",
-			"text": "i agree"
+			"sound": "bfDialouge",
+			"portrait": "max"
 		},
 		{
 			"expression": "talk",
+			"text": "you look way happier than  before",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "you look way happier than  before"
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "yeah, ",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "max",
-			"text": "yeah, "
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "cute",
+			"text": "um, max. Can I ask you something?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "yeah, tell me",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "um, max. Can I ask you something?"
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "worry",
+			"text": "why were you here all alone?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "well... I don't have many friends to be with,",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "max",
-			"text": "yeah, tell me"
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "very-happy",
+			"text": "that's very sad. You could sometime hang out with me if you wanna",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "really???",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "why were you here all alone?"
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "very-cute",
+			"text": "yeah! Give me your phone number, so we can chat",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "alright!",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "max",
-			"text": "well... I don't have many friends to be with,"
+			"sound": "bfDialouge",
+			"portrait": "max"
 		},
 		{
 			"expression": "talk",
+			"text": "Max gives Sandra his phone number",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "that's very sad. You could sometime hang out with me if you wanna"
+			"sound": "",
+			"portrait": "air"
+		},
+		{
+			"expression": "worry",
+			"text": "good! But it's getting late, we should be leaving",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "can we go together?",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "max",
-			"text": "really???"
+			"sound": "bfDialouge",
+			"portrait": "max"
+		},
+		{
+			"expression": "very-happy",
+			"text": "of course! It's nice to have company",
+			"boxState": "normal",
+			"speed": 0.05,
+			"sound": "gfDialouge",
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
+			"text": "They leave the bench",
 			"boxState": "normal",
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "yeah! Give me your phone number, so we can chat"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
 			"sound": "",
-			"speed": 0.05,
-			"portrait": "max",
-			"text": "alright!"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "air",
-			"text": "Max gives Sandra his phone number"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "good! But it's getting late, we should be leaving"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "max",
-			"text": "can we go together?"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "sandra",
-			"text": "of course! It's nice to have company"
-		},
-		{
-			"expression": "talk",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "air",
-			"text": "They leave the bench"
+			"portrait": "air"
 		}
-    ]
+	]
 }
