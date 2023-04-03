@@ -8,15 +8,26 @@ function onCreate()
 end
 function opponentNoteHit(id, d, noteType, isSustainNote)
 	if noteType == 'Alt Anim Orange' then
-		if getProperty('health') > 0.2 then
-			setProperty('health', getProperty('health')-0.1)
-			makeMagic(2)
+		if difficulty == 1 then
+				setProperty('health', getProperty('health')+0.1)
+		else
+			if getProperty('health') > 0.2 then
+				setProperty('health', getProperty('health')-0.1)
+				makeMagic(2)
+			end
 		end
 	end
 end
 function goodNoteHit(id, d, noteType, isSustainNote)
 	if noteType == 'Alt Anim Orange' then
-		setProperty('health', getProperty('health')+0.1)
+		if difficulty == 1 then
+			if getProperty('health') > 0.2 then
+				setProperty('health', getProperty('health')-0.1)
+				makeMagic(2)
+			end
+		else
+				setProperty('health', getProperty('health')+0.1)
+		end
 	end
 end
 function makeMagic(amount)

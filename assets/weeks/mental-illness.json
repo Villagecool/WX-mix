@@ -3,7 +3,7 @@
 	"hideFreeplay": false,
 	"weekBackground": "bench",
 	"weekBefore": "tutorial",
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"category": "Secret",
 	"startUnlocked": true,
 	"weekCharacters": [

@@ -9,16 +9,6 @@
 				51,
 				123
 			]
-		],
-		[
-			"South Old",
-			"bois",
-			"max",
-			[
-				90,
-				51,
-				123
-			]
 		]
 	],
 
@@ -32,7 +22,7 @@
 	"storyName": "Spooky Month",
 	"weekBefore": "week1",
 	"weekName": "Week 2",
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"startUnlocked": true,
 
 	"hideStoryMode": true,

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="max.png"><SubTexture name="max oh0000" x="0" y="0" width="400" height="477" frameX="-10" frameY="-22" frameWidth="438" frameHeight="531" />
+<SubTexture name="max mad0000" x="400" y="0" width="400" height="477" frameX="-10" frameY="-22" frameWidth="438" frameHeight="531" />
+<SubTexture name="max  0000" x="800" y="0" width="400" height="477" frameX="-10" frameY="-22" frameWidth="438" frameHeight="531" />
+<SubTexture name="max happi0000" x="0" y="477" width="400" height="477" frameX="-10" frameY="-22" frameWidth="438" frameHeight="531" />
+</TextureAtlas>

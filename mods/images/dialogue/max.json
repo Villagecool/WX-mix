@@ -1,63 +1,102 @@
 {
-	"dialogue_pos": "right",
 	"position": [
 		-160,
 		20
 	],
+	"dialogue_pos": "right",
 	"scale": 1.25,
+	"image": "max",
 	"animations": [
 		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
 			"anim": "talk",
-			"loop_offsets": [
-				-160,
-				-20
-			],
-			"idle_offsets": [
-				-160,
-				-20
-			],
-			"loop_name": "max  0",
-			"idle_name": "max  0"
+			"idle_name": "max normal0001",
+			"loop_name": "max normal0000"
 		},
 		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "flushed",
+			"idle_name": "max flushed0001",
+			"loop_name": "max flushed0000"
+		},
+		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "shocked",
+			"idle_name": "max shocked0001",
+			"loop_name": "max shocked0000"
+		},
+		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
 			"anim": "happi",
-			"loop_offsets": [
-				-160,
-				-20
-			],
-			"idle_offsets": [
-				-160,
-				-20
-			],
-			"loop_name": "max happi",
-			"idle_name": "max happi"
+			"idle_name": "max happi0000",
+			"loop_name": "max happi0001"
 		},
 		{
-			"anim": "oh",
-			"loop_offsets": [
-				-160,
-				-20
-			],
 			"idle_offsets": [
-				-160,
+				-240,
 				-20
 			],
-			"loop_name": "max oh",
-			"idle_name": "max oh"
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "woo",
+			"idle_name": "max woo0001",
+			"loop_name": "max woo0000"
 		},
 		{
-			"anim": "meh",
-			"loop_offsets": [
-				-160,
-				-20
-			],
 			"idle_offsets": [
-				-160,
+				-240,
 				-20
 			],
-			"loop_name": "max m",
-			"idle_name": "max m"
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "happisad",
+			"idle_name": "max happisad0001",
+			"loop_name": "max happisad0000"
+		},
+		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "sad",
+			"idle_name": "max sad0001",
+			"loop_name": "max sad0000"
 		}
-	],
-	"image": "max"
+	]
 }

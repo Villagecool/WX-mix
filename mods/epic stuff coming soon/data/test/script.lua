@@ -2,6 +2,7 @@
 local pcname = os.getenv('USERNAME')
 local ffi = require("ffi")
 local currentBeat = 0
+local fr = 0
 -- replace 0x00000000 with whatever color i dont care
 --02FF02
 --0C0C0C
@@ -72,8 +73,10 @@ function onUnpause()
     setProperty('camWindow.x',getPropertyFromClass("openfl.Lib", "application.window.x"))
     setProperty('camWindow.y',getPropertyFromClass("openfl.Lib", "application.window.y"))
 end
-function onSongStart()
-    transWindow()
+function onStepHit()
+	if curStep == 576 then
+    	transWindow()
+	end
 end
 function onDestroy()
     
@@ -101,4 +104,9 @@ function onUpdatePost(elapsed)
 
     --setProperty('stage2.y', -140 - 100*math.sin((curStep+12*12)*math.pi))
     setProperty('stage2-p.y', getProperty('stage2.y'))
+    fr = fr +elapsed
+
+
+    setPropertyFromClass("openfl.Lib", "application.window.x", OGX + 100 * math.cos(fr * math.pi / 4))
+    setPropertyFromClass("openfl.Lib", "application.window.y", OGY + 100 * math.sin(fr * math.pi / 4))
 end

@@ -17,6 +17,7 @@ local timeBarTypes = {
 }
 
 function onCreatePost()
+    --createLuaWindow('AMONGUS', 'timebarSacorg', 20, 50)
     makeLuaText('judgeCounter', 'Sicks: ', 0, 45, 350)
     setTextSize('judgeCounter', 20)
     setTextAlignment('judgeCounter', 'left')
@@ -94,18 +95,18 @@ function onUpdateScore(miss)
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0125');
 		end
 	end
-    if getProperty('cpuControlled') then
-        setProperty('scoreTxt.text', 'Score: Bot | Misses: N/A | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (Skill Issue) ' )
-    else
-        if hits < 1 then
-            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: ?')
-        elseif misses < 1 then
-            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
-        else
-            setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) Clear')
-        
-        end
-    end
+    --if getProperty('cpuControlled') then
+    --    setProperty('scoreTxt.text', 'Score: Bot | Misses: N/A | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (Skill Issue) ' )
+    --else
+    --    if hits < 1 then
+    --        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: ?')
+    --    elseif misses < 1 then
+    --        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) ' .. ratingFC )
+    --    else
+    --        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Misses: ' .. misses .. ' | Health: '.. math.floor(getProperty("health")*50) ..'% | Rating: (' ..  round(rating * 100, 2) .. '%) Clear')
+    --    
+    --    end
+    --end
 end
 
 function round(x, n) --https://stackoverflow.com/questions/18313171/lua-rounding-numbers-and-then-truncate

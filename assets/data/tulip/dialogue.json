@@ -4,265 +4,265 @@
 			"expression": "talk",
 			"text": "Sandra's walking along the park",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": "gee, what a beautiful day!",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Sandra notices a boy sitting alone on a bench",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "worry",
 			"text": "oh? Who's that? He looks kinda sad,",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Sandra goes to Max",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "man, it sure is lonely here",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Sandra gets to him",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": "hey there, what's up?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Max looks at Sandra",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "oh, hi... Do you need something?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "nah. I saw you were here all alone and I wanted to see if you were OK.",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "oh, alright",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "cute",
 			"text": "do you mind if I sit here next to you?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "okay...",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": "cool!",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Sandra sits down",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "They remain silent for a while",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "soooo... What's your name?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "happisad",
 			"text": "I'm max...",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": " mine is Sandra. Nice to meet you!",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "happisad",
 			"text": "Same...",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Sandra notices something in Max's pocket",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
 			"expression": "worry",
 			"text": "hey, what's that on your pocket?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "oh... this?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
 			"text": "Max shows Sandra an old photo",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "air",
 			"sound": "",
-			"portrait": "air"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "these were my parents. This is the only photo I have of them. I like to bring it with me",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "worry",
 			"text": "what happened to them? ",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "sad",
 			"text": "they died on an accident ",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "worry",
 			"text": "aw Maan, I'm so sorry. ",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "happisad",
 			"text": "sometimes I used to sing for them when we were bored. ",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": "oh, do you wanna sing then?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "happisad",
 			"text": "uhh... Sure, why not?",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "max",
 			"sound": "bfDialouge",
-			"portrait": "max"
+			"speed": 0.05
 		},
 		{
 			"expression": "very-happy",
 			"text": "alright! ",
 			"boxState": "normal",
-			"speed": 0.05,
+			"portrait": "sandra",
 			"sound": "gfDialouge",
-			"portrait": "sandra"
+			"speed": 0.05
 		}
 	]
 }

@@ -1,0 +1,24 @@
+{
+	"position": [
+		-160,
+		20
+	],
+	"dialogue_pos": "right",
+	"scale": 1.25,
+	"image": "max_balls",
+	"animations": [
+		{
+			"idle_offsets": [
+				-240,
+				-20
+			],
+			"loop_offsets": [
+				-240,
+				-20
+			],
+			"anim": "talk",
+			"idle_name": "max_balls idle0015",
+			"loop_name": "max_balls"
+		}
+	]
+}

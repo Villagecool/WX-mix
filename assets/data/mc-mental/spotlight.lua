@@ -13,18 +13,19 @@ function onCreate()
 
 end
 function onStepHit()
-    if mustHitSection then
-        setProperty('spotlight.x', getProperty('boyfriend.x')-100)
-        setProperty('spotlight.y', getProperty('boyfriend.y')-650)
-    else
-        setProperty('spotlight.x', getProperty('dad.x')-200)
-        setProperty('spotlight.y', getProperty('dad.y')-700)
-    end
+        if mustHitSection then
+            setProperty('spotlight.x', getProperty('boyfriend.x')-100)
+            setProperty('spotlight.y', getProperty('boyfriend.y')-650)
+        else
+            setProperty('spotlight.x', getProperty('dad.x')-200)
+            setProperty('spotlight.y', getProperty('dad.y')-600)
+        end
 end
 function onCreatePost()
 	makeAnimatedLuaSprite('sandra','characters/sandra-suprised',getProperty('dad.x'),getProperty('dad.y')-400)
-	addAnimationByPrefix('sandra','idle','',24,false)
-    objectPlayAnimation('sandra', 'idle', true)
+	addAnimationByIndices('sandra','danceLeft','GF Dancing Beat', '30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14',24)
+	addAnimationByIndices('sandra','danceRight','GF Dancing Beat', '15,16,17,18,19,20,21,22,23,24,25,26,27,28,29',24)
+    objectPlayAnimation('sandra', 'danceLeft', true)
 	addLuaSprite('sandra',false)
 
     
@@ -35,8 +36,10 @@ function onCreatePost()
 end
 function onBeatHit()
 	if curBeat % 2 == 0 then
-    objectPlayAnimation('max', 'idle', true)
-    objectPlayAnimation('sandra', 'idle', true)
+        objectPlayAnimation('max', 'idle', true)
+        objectPlayAnimation('sandra', 'danceLeft', true)
+    else
+        objectPlayAnimation('sandra', 'danceRight', true)
     end
 end
 function onSongStart()

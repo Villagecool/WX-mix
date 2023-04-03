@@ -41,7 +41,7 @@
 
 	"storyName": "Spooky Month",
 	"weekBefore": "week1",
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"weekName": "Week 2",
 	"startUnlocked": true,
 

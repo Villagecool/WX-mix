@@ -30,7 +30,8 @@ end
           return Function_Continue
      end
      
-digs = { 'A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z', '1','2','3','4','5','6','7','8','9','10' }
+digs = { 'A', 'B', 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z' }
+ints = {'NUMPADZERO','NUMPADONE','NUMPADTWO','NUMPADTHREE','NUMPADFOUR','NUMPADFIVE','NUMPADSIX','NUMPADSEVEN','NUMPADEIGHT','NUMPADNINE'}
 function onUpdate(elapsed)
      setTextAlignment('commands', 'left')
      setTextString('commands', 'welcome to developer\'s console 1.3.2\n\nPress Shift To Reset\n\nPS C:\\Users\\'..pcname..'>'.. usedcommand.. command)
@@ -55,6 +56,11 @@ function onUpdate(elapsed)
                command = command..digs[i]
           end
      end
+     for e = 1,10 do
+          if keyboardJustPressed(ints[e]) then
+               command = command..e-1
+          end
+     end
 end
 function resetCon()
      usedcommand = ''
@@ -66,12 +72,18 @@ function enter(com)
      elseif com == 'MENTAL' then
           loadSong('mc-mental', 2)
      elseif com == 'HELP' then
-          usedcommand = usedcommand..command..'\nShift to Reset\nESC to Go Back\nBackspace to reset line\n\nPS C:\\Users\\'..pcname..'>'
+          newline('Shift to Reset\nESC to Go Back\nBackspace to reset line')
+          newline('\nPS C:\\Users\\'..pcname..'>')
      else
           if com == '' then
-               usedcommand = usedcommand..command..'\nPS C:\\Users\\'..pcname..'>'
+               newline('PS C:\\Users\\'..pcname..'>')
           else
-               usedcommand = usedcommand..command..'\n\nError: Command Not Found\n\nPS C:\\Users\\'..pcname..'>'
+               newline('\nError: Command Not Found: '..command)
+               newline('\nPS C:\\Users\\'..pcname..'>')
           end
      end
+end
+function newline(line)
+     usedcommand = usedcommand..command..'\n'..line
+     command = ''
 end

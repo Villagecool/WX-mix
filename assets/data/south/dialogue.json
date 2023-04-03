@@ -4,105 +4,105 @@
 			"expression": "very-happy",
 			"text": "hey, max! You did great!",
 			"boxState": "normal",
-			"portrait": "sandra",
+			"speed": 0.05,
 			"sound": "gfDialouge",
-			"speed": 0.05
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
 			"text": "yeah! Amazing!",
 			"boxState": "normal",
-			"portrait": "bois",
-			"sound": "",
-			"speed": 0.05
+			"speed": 0.05,
+			"sound": "skidDialouge",
+			"portrait": "bois"
 		},
 		{
 			"expression": "talk",
 			"text": "Max blushes",
 			"boxState": "normal",
-			"portrait": "air",
+			"speed": 0.05,
 			"sound": "",
-			"speed": 0.05
+			"portrait": "air"
 		},
 		{
-			"expression": "happi",
+			"expression": "flushed",
 			"text": "thanks, everybody",
 			"boxState": "normal",
-			"portrait": "max",
+			"speed": 0.05,
 			"sound": "bfDialouge",
-			"speed": 0.05
+			"portrait": "max"
 		},
 		{
 			"expression": "oliver",
 			"text": "can we sing again?",
 			"boxState": "normal",
-			"portrait": "bois",
-			"sound": "",
-			"speed": 0.05
+			"speed": 0.05,
+			"sound": "skidDialouge",
+			"portrait": "bois"
 		},
 		{
 			"expression": "wyatt",
 			"text": "pleaaase?",
 			"boxState": "normal",
-			"portrait": "bois",
-			"sound": "",
-			"speed": 0.05
+			"speed": 0.05,
+			"sound": "pumpDialouge",
+			"portrait": "bois"
 		},
 		{
-			"expression": "oh",
+			"expression": "happisad",
 			"text": "i don't know... It's getting late",
 			"boxState": "normal",
-			"portrait": "max",
+			"speed": 0.05,
 			"sound": "bfDialouge",
-			"speed": 0.05
+			"portrait": "max"
 		},
 		{
 			"expression": "cute",
 			"text": "come on, max",
 			"boxState": "normal",
-			"portrait": "sandra",
+			"speed": 0.05,
 			"sound": "gfDialouge",
-			"speed": 0.05
+			"portrait": "sandra"
 		},
 		{
 			"expression": "talk",
 			"text": "Gf lays her head on Max's shoulder. Max blushes",
 			"boxState": "normal",
-			"portrait": "air",
+			"speed": 0.05,
 			"sound": "",
-			"speed": 0.05
+			"portrait": "air"
 		},
 		{
 			"expression": "very-cute",
 			"text": "do it for mee",
 			"boxState": "normal",
-			"portrait": "sandra",
+			"speed": 0.05,
 			"sound": "gfDialouge",
-			"speed": 0.05
+			"portrait": "sandra"
 		},
 		{
-			"expression": "oh",
+			"expression": "flushed",
 			"text": "well, one more song wouldn't hurt anyone, right? ",
 			"boxState": "normal",
-			"portrait": "max",
+			"speed": 0.05,
 			"sound": "bfDialouge",
-			"speed": 0.05
+			"portrait": "max"
 		},
 		{
 			"expression": "very-happy",
 			"text": "yay! ",
 			"boxState": "normal",
-			"portrait": "sandra",
+			"speed": 0.05,
 			"sound": "gfDialouge",
-			"speed": 0.05
+			"portrait": "sandra"
 		},
 		{
 			"expression": "oliver",
 			"text": "yipeee! Let's go!",
 			"boxState": "normal",
-			"portrait": "bois",
-			"sound": "",
-			"speed": 0.05
+			"speed": 0.05,
+			"sound": "skidDialouge",
+			"portrait": "bois"
 		}
 	]
 }

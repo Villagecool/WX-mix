@@ -85,6 +85,31 @@ function opponentNoteHit(id, d, noteType, isSustainNote)
 			characterPlayAnimation('Wyatt', anim, true, offsets[3].x, offsets[3].y);
 		end
 end
+function goodNoteHit(id, d, noteType, isSustainNote)
+	if noteType == 'Alt Anim Orange' or altAnim then
+		alt = '-alt'
+	else
+		alt = ''
+	end
+		if d == 0 then
+		anim = 'singLEFT'..alt
+		end
+		if d == 1 then
+		anim = 'singDOWN'..alt
+		end
+		if d == 2 then
+		anim = 'singUP'..alt
+		end
+		if d == 3 then
+		anim = 'singRIGHT'..alt
+		end
+		if WyattSing or noteType == 'WyattSing' then
+			characterPlayAnimation('Wyatt', anim, true, offsets[d].x, offsets[d].y);
+		elseif noteType == 'Alt Anim Orange' then
+			anim = 'singRIGHT-alt'
+			characterPlayAnimation('Wyatt', anim, true, offsets[3].x, offsets[3].y);
+		end
+end
 function characterPlayAnimation(char,anim,forced,offsetx,offsety)
 	setProperty(char..'.offset.x', offsetx);
 	setProperty(char..'.offset.y', offsety);

@@ -10,7 +10,7 @@
 	],
 	"weekBackground": "halloween",
 
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"storyName": "Spooky Month",
 	"category": "extra",
 	"weekName": "Sus Week",
