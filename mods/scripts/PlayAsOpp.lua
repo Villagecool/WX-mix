@@ -106,6 +106,7 @@ end
 
 function opponentNoteHit(id, noteData, noteType)
     if difficulty == 1 then
+        setProperty('health', getProperty('health')-0.023)
     local animSuffix = getPropertyFromGroup('notes', id, 'animSuffix')
     local Player = 'boyfriend'
     local PlayThis = getProperty('singAnimations')[noteData + 1]
