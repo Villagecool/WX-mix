@@ -1,10 +1,11 @@
 Wx Mix Team
-WerteX_390::WerteX_390::Main Director/Artist/Musician \n\n "I wanna cancel this shit rn"::https://www.youtube.com/@WerteX_390::FFA322
+WerteX_390::WerteX_390::Main Director/Artist/Musician::https://www.youtube.com/@WerteX_390::FFA322
 Villagecool::Villagecool::Basically Made the whole mod's code + other stuff \n\n "imagine having the same name as a character in an fnf mod"::https://www.youtube.com/@villagecool4973::3AAF0C
 PhoenixPH::PhoenixPH::Musician::https://www.youtube.com/@phoenixph1462/videos::FFD3B7
-Hyloveper::hylo::Sub Director \n\n "mfs"::https://youtube.com/@kriluc7224::FFD6FC
+Hyloveper::hylo::Lore Person \n\n "mfs"::https://youtube.com/@kriluc7224::FFD6FC
+The1FilipinoDude::this bozo::Artist::https://www.youtube.com/channel/UC9_HkekwR1Ipj2mKXR6nneQ::0710FF
 DinnerBambiFan::unknown::Charter::N/A::445256
-Mambi::mambi::Made the menu bg and some other stuff::N/A::445256
+Mambi::mambi::Made the menu bg and some other stuff::https://www.youtube.com/channel/UCof4VeVAJg7nNITNidKqKew::445256
 Nani_Obr::nani::Icon Artist \n\n "sometimes you are not accepted to help in the mod, take the opportunity to help yourself"::https://www.youtube.com/@Nani_Obr::00D0FF
 ADA::ada::Coder::https://www.youtube.com/@ada_funni/featured::DDFDFF
 

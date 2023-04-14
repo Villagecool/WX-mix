@@ -1,0 +1,5 @@
+Makes the Jumpscare appear
+
+Value 1 should be set to :
+"Do" 		- BOO
+"Remove" 	- Removes the sprite

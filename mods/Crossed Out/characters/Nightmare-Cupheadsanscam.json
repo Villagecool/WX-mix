@@ -1,0 +1,149 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				209,
+				-134
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				61,
+				-80
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				-105
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				18,
+				-27
+			],
+			"loop": true,
+			"fps": 26,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle instance 1"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				-268
+			],
+			"anim": "shotting",
+			"fps": 26,
+			"name": "Beamm instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				69,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "ShootDown instance 1"
+		},
+		{
+			"offsets": [
+				18,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "big shot",
+			"indices": [],
+			"name": "Hadoken or Roundabout instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				79
+			],
+			"anim": "singUP",
+			"fps": 30,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				100,
+				-133
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "Dodgez instance 1"
+		},
+		{
+			"offsets": [
+				100,
+				-133
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "dodge-loop",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			],
+			"name": "Dodgez instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cuphead/Nightmare_Cuphead",
+	"position": [
+		0,
+		90
+	],
+	"healthicon": "Final",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		1770,
+		200
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

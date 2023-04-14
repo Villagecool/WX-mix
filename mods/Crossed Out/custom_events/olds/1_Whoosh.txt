@@ -1,0 +1,9 @@
+The Event for smooth transitions, so I don't
+have to redo the flash effect everytime
+
+Value 1 makes the flash behave differently
+"0"	- Nothing (At the start, so it's loaded but doesn't disturb)
+"1"	- Short Stay, Medium Decay  
+"2"	- Long Stay, Long Decay
+"3"  	- Short Stay, Long Decay
+"Dark" - Bendy's transition

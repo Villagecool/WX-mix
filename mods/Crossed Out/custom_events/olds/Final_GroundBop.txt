@@ -1,0 +1,8 @@
+Makes the Ground during the 
+final part bop
+
+Value 1 should be set to :
+"Do"    	- For every 4th Beat
+"Full" 	- For every 2nd Beat
+"hefty" - For every Beat
+

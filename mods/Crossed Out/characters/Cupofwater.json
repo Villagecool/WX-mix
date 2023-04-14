@@ -1,0 +1,231 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				-70
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "1"
+		},
+		{
+			"offsets": [
+				149,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				5,
+				-42
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				2,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				42,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				2,
+				-82
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "shotting",
+			"indices": [],
+			"name": "DIE BITCH"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				117,
+				-79
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Ouch instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-100
+			],
+			"anim": "AltDown",
+			"fps": 24,
+			"name": "Phase 2 starts instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-69
+			],
+			"anim": "RoundAttack",
+			"fps": 24,
+			"name": "Roundattack instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				15
+			],
+			"anim": "pewUP",
+			"fps": 24,
+			"name": "PewUp instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				-97
+			],
+			"anim": "PewDOWN",
+			"fps": 24,
+			"name": "pewdown instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-43
+			],
+			"anim": "pewRIGHT",
+			"fps": 24,
+			"name": "PewRight instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				142,
+				-90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pewLEFT",
+			"indices": [],
+			"name": "Pewleft instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-101
+			],
+			"anim": "phase 2",
+			"fps": 24,
+			"name": "Phase 2 starts instance 1",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6,
+				6
+			]
+		},
+		{
+			"offsets": [
+				372,
+				210
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "big shot",
+			"indices": [],
+			"name": "Hadoken!!"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cuphead/WFC",
+	"position": [
+		0,
+		320
+	],
+	"healthicon": "Cupsans",
+	"flip_x": false,
+	"healthbar_colors": [
+		171,
+		22,
+		74
+	],
+	"camera_position": [
+		-10,
+		-10
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

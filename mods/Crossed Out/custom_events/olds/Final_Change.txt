@@ -1,0 +1,7 @@
+Makes the Nm Characters in the final 
+part the one that sings
+
+Value 1 should be set to :
+"c" 	- No Cuphead
+"b" 	- No Bendy
+"s" 	- No Sans

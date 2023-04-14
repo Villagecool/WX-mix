@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DeathSans002.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Nightmare SANS Idle instance 10000" x="6102" y="523" width="492" height="849" frameX="-77" frameY="-79" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10001" x="6604" y="523" width="493" height="795" frameX="-78" frameY="-133" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10002" x="7107" y="523" width="484" height="859" frameX="-80" frameY="-69" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10003" x="7601" y="523" width="497" height="882" frameX="-78" frameY="-46" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10004" x="10" y="1415" width="499" height="820" frameX="-77" frameY="-108" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10005" x="519" y="1415" width="514" height="863" frameX="-78" frameY="-65" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10006" x="1043" y="1415" width="521" height="890" frameX="-45" frameY="-38" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10007" x="1574" y="1415" width="488" height="877" frameX="-78" frameY="-51" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10008" x="2072" y="1415" width="492" height="906" frameX="-77" frameY="-22" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10009" x="2574" y="1415" width="488" height="858" frameX="-78" frameY="-70" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10010" x="3072" y="1415" width="489" height="912" frameX="-80" frameY="-16" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10011" x="3571" y="1415" width="511" height="830" frameX="-78" frameY="-98" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10012" x="4092" y="1415" width="510" height="888" frameX="-77" frameY="-40" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10013" x="4612" y="1415" width="500" height="928" frameX="-69" frameY="0" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10014" x="5122" y="1415" width="571" height="877" frameX="0" frameY="-51" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10015" x="5703" y="1415" width="562" height="878" frameX="-7" frameY="-50" frameWidth="592" frameHeight="928"/>
+	<SubTexture name="Nightmare SANS Idle instance 10016" x="6275" y="1415" width="489" height="810" frameX="-77" frameY="-118" frameWidth="592" frameHeight="928"/>
+</TextureAtlas>

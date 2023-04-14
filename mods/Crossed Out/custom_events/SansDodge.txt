@@ -1,0 +1,7 @@
+Value 1 = If the bones will be colored
+If you want it to be the colored ones, 
+put anything in the value 1. If not,leave blank.
+
+Value 2 = If true, when the player does not dodge, he 
+will die instantly.
+If False or blank, he will lose half his life.

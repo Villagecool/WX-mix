@@ -11,6 +11,23 @@ function onCreatePost()
         composer = 'WerteX_390'
     elseif songName == 'South' then
         composer = 'WerteX_390'
+    elseif songName == 'Insanity' then
+        composer = 'WerteX_390'
+        ogMod = 'VS Dave and Bambi'
+    elseif songName == 'Splitathon' then
+        composer = 'WerteX_390'
+        ogMod = 'VS Dave and Bambi'
+    elseif songName == 'Trespass' then
+        composer = 'WerteX_390'
+        ogMod = 'FNF Hortas Edtiton'
+    elseif songName == 'Dad Battle' then
+        composer = 'WerteX_390 + Foxer'
+    elseif songName == 'Bopeebo' then
+        composer = 'WerteX_390'
+    elseif songName == 'Bopeedo' then
+        composer = 'WerteX_390'
+    elseif songName == 'Fresh' then
+        composer = 'PhoenixPH'
     elseif songName == 'Sussus Nuzzus' then
         composer = 'WerteX_390'
         ogMod = 'VS impostor'

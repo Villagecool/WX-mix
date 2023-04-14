@@ -1,69 +1,47 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-15,
-				-50
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				50,
+				-35
+			],
 			"anim": "cheer",
-			"indices": [],
-			"name": "GF_Cheer"
+			"fps": 24,
+			"name": "GF_Cheer",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				-29
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "sad",
+			"fps": 24,
 			"name": "GF_Sad"
 		},
 		{
+			"loop": true,
 			"offsets": [
 				38,
 				-19
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "danceLeft",
-			"indices": [],
-			"name": "GF_IdleLeft"
+			"fps": 24,
+			"name": "GF_IdleLeft",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				38,
 				-19
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "danceRight",
-			"indices": [],
-			"name": "GF_IdleRight"
-		},
-		{
-			"offsets": [
-				0,
-				-9
-			],
-			"loop": true,
 			"fps": 24,
-			"anim": "danceLeft-alt",
-			"indices": [],
-			"name": "GF_Happier_IdleLeft"
-		},
-		{
-			"offsets": [
-				-4,
-				-9
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "danceRight-alt",
-			"indices": [],
-			"name": "GF_Happier_IdleRight"
+			"name": "GF_IdleRight",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

@@ -14,7 +14,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				59,
+				99,
 				-5
 			],
 			"anim": "singLEFT",
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				120,
-				67
+				190,
+				117
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -60,7 +60,7 @@
 	"image": "characters/Bambi3.0",
 	"position": [
 		-90,
-		820
+		400
 	],
 	"healthicon": "bambi",
 	"flip_x": false,
@@ -71,7 +71,7 @@
 	],
 	"camera_position": [
 		0,
-		-200
+		-60
 	],
 	"sing_duration": 6.1,
 	"scale": 1.7

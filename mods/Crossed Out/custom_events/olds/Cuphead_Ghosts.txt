@@ -1,0 +1,9 @@
+Makes the Ghosts in Cuphead's stage appear
+
+Funfact, i've been trying to make this work for 2 hours by now,
+sometimes id does work sometimes it doesnt
+I'm so cunfused and tired of this shit...
+
+Value 1 should be set to :
+"Add" 		- To add it, with a small flash
+"Fly" 	- To make it fade out + remove it

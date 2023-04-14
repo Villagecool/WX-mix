@@ -40,9 +40,9 @@
 	"weekBackground": "halloween",
 
 	"storyName": "Spooky Month",
-	"weekBefore": "week1",
+	"weekBefore": "turtoial",
 	"difficulties": "Normal, Swapped",
-	"weekName": "Week 2",
+	"weekName": "Week 1",
 	"startUnlocked": true,
 
 	"hideStoryMode": false,

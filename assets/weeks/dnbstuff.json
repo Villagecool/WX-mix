@@ -1,0 +1,49 @@
+{
+	"songs": [
+		[
+			"Trespass",
+			"bambi",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		],
+		[
+			"Insanity",
+			"dave",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		],
+		[
+			"Splitathon",
+			"dave",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		]
+	],
+
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "halloween",
+	"storyName": "",
+	"weekName": "",
+	"difficulties": "Normal, Swapped",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"category": "Extra"
+}

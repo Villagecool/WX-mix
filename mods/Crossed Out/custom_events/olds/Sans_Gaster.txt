@@ -1,0 +1,6 @@
+Makes Gaster appear, reduces your max health,
+adds distractions
+
+Value 1 should be set to :
+"Add"  		- For Gaster to appear
+"Remove" 	- For Gaster to go away

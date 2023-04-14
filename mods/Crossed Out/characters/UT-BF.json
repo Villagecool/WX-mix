@@ -1,0 +1,160 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				543,
+				60
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Ouch instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				543,
+				60
+			],
+			"anim": "test",
+			"fps": 24,
+			"name": "Pee instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				873,
+				40
+			],
+			"anim": "test2",
+			"fps": 24,
+			"name": "Roses got me like instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				523,
+				101
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Ouch instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				569,
+				101
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Ouch instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				525,
+				120
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Ouch instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				515,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				16,
+				17,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"name": "0Idle instance 1"
+		},
+		{
+			"offsets": [
+				502,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "0EERR instance 1"
+		},
+		{
+			"offsets": [
+				554,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "0EEEE instance 1"
+		},
+		{
+			"offsets": [
+				508,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "0Ouu instance 1"
+		},
+		{
+			"offsets": [
+				523,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "0UPPP instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sans/UT-BF",
+	"position": [
+		-110,
+		1070
+	],
+	"healthicon": "bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		460,
+		110
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Idle instance",
+	"image": "Menu_Cuphead_Low",
+	"position": [
+		20,
+		135
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "Idle instance"
+}

@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Bopeebo", "dad", "max", [146, 113, 253]],
+		["Fresh", "dad", "max", [146, 113, 253]],
+		["Dad Battle", "dad", "max", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Daddy Dearest",
+	"weekBefore": "week2",
+	"weekName": "Week 2",
+	"difficulties": "Normal, Swapped",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

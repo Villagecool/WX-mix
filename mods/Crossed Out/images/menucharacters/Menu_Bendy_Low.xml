@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NMB.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DeathBendy instance 10000" x="10" y="10" width="627" height="584" frameX="-53" frameY="-67" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10001" x="647" y="10" width="636" height="555" frameX="-28" frameY="-96" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10002" x="1293" y="10" width="641" height="581" frameX="-31" frameY="-71" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10003" x="1944" y="10" width="668" height="589" frameX="-23" frameY="-63" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10004" x="2622" y="10" width="664" height="561" frameX="-26" frameY="-91" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10005" x="3296" y="10" width="676" height="578" frameX="-16" frameY="-74" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10006" x="3982" y="10" width="677" height="598" frameX="-31" frameY="-54" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10007" x="4669" y="10" width="632" height="600" frameX="-51" frameY="-51" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10008" x="5311" y="10" width="613" height="633" frameX="-57" frameY="-17" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10009" x="5934" y="10" width="616" height="628" frameX="-41" frameY="-22" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10010" x="6560" y="10" width="649" height="650" frameX="-24" frameY="0" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10011" x="7219" y="10" width="692" height="586" frameX="0" frameY="-64" frameWidth="708" frameHeight="652"/>
+	<SubTexture name="DeathBendy instance 10012" x="10" y="670" width="678" height="612" frameX="0" frameY="-39" frameWidth="708" frameHeight="652"/>
+</TextureAtlas>

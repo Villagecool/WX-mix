@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bambi Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-111,
+				5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bambi Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				-11
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bambi Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				7
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bambi Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bambi Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/joe",
+	"position": [
+		-90,
+		400
+	],
+	"healthicon": "joe",
+	"flip_x": false,
+	"healthbar_colors": [
+		199,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1.6
+}

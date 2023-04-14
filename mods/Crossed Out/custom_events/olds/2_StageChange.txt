@@ -1,0 +1,6 @@
+Changes the current stage
+
+Value 1 should be set to :
+First three letters of the current Stage + Number
+ex : "Cup2" for 2nd Cuphead Chars
+       "San3" for 3rd Sans Chars

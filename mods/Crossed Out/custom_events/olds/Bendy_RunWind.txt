@@ -1,0 +1,6 @@
+All the stuff during Bendy's run part,
+
+
+Value 1 should be set to :
+"Add"    	- Make all the stuff happen
+"Remove" 	- Everything returns to normal

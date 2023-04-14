@@ -1,0 +1,5 @@
+Handels the Card thing,
+
+Value 1 should be set to :
+"True" 		- To enable the card
+"False" 	- To disable the card

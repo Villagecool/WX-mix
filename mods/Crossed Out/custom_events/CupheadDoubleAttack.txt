@@ -1,0 +1,2 @@
+Value 1 = True for the alert the player, leave it blank so 
+the alert does not appear.

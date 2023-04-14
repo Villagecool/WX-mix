@@ -1,0 +1,6 @@
+Activades all the stuff in the guitar part,
+that are happening in the background
+
+Value 1 should be set to :
+"Do"    	- to add all the Effects
+"Dont" 	- to remove all the Effects

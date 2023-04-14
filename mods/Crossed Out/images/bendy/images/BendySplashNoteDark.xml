@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ink_notes.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="5" y="5" width="156" height="189"/>
+	<SubTexture name="purple0000" x="176" y="5" width="164" height="167"/>
+	<SubTexture name="red0000" x="5" y="209" width="164" height="160"/>
+	<SubTexture name="green0000" x="184" y="209" width="156" height="178"/>
+</TextureAtlas>

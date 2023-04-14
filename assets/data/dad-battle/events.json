@@ -1,12 +1,8 @@
 {
 	"song": {
-		"speed": 2.3,
-		"stage": "stage",
-		"player1": "bf",
-		"player2": "dad",
 		"events": [
 			[
-				32000,
+				30473.6842105263,
 				[
 					[
 						"Dadbattle Spotlight",
@@ -16,11 +12,41 @@
 				]
 			],
 			[
-				42666.6666666667,
+				30552.6315789474,
 				[
 					[
 						"Dadbattle Spotlight",
 						"3",
+						""
+					]
+				]
+			],
+			[
+				40421.0526315789,
+				[
+					[
+						"Dadbattle Spotlight",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				42947.3684210526,
+				[
+					[
+						"Dadbattle Spotlight",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				45473.6842105263,
+				[
+					[
+						"Dadbattle Spotlight",
+						"2",
 						""
 					]
 				]
@@ -234,15 +260,37 @@
 						""
 					]
 				]
+			],
+			[
+				55578.947368421,
+				[
+					[
+						"Dadbattle Spotlight",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				60631.5789473684,
+				[
+					[
+						"Dadbattle Spotlight",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				81157.894736842,
+				[
+					[
+						"Dadbattle Spotlight",
+						"1",
+						""
+					]
+				]
 			]
-		],
-		"notes": [],
-		"splashSkin": null,
-		"validScore": false,
-		"gfVersion": "gf",
-		"bpm": 180,
-		"arrowSkin": null,
-		"needsVoices": true,
-		"song": "Dad Battle"
+		]
 	}
 }

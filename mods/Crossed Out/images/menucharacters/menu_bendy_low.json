@@ -1,0 +1,11 @@
+{
+	"idle_anim": "DeathBendy instance",
+	"image": "Menu_Bendy_Low",
+	"position": [
+		360,
+		215
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": ""
+}

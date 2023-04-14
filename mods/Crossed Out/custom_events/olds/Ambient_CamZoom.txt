@@ -1,0 +1,10 @@
+Adds camzoom automaticly, cause im lazy
+
+Value 1 should be set to :
+"1"    	- every beat
+"2" 	- every second beat
+"3"    	- every section
+"Dont" 	- to stop
+
+Value 2 should be set to :
+*Amount of Zoom*

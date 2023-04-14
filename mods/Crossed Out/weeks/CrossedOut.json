@@ -1,0 +1,32 @@
+{
+	"storyName": "A TRUE NIGHTMARE",
+	"hideFreeplay": false,
+	"weekBackground": "cross",
+	"weekBefore": "",
+	"difficulties": "Normal",
+	"freeplayColor": [
+		255,
+		204,
+		0
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Crossed Out",
+			"final",
+			[
+				255,
+				204,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"category": "Mods",
+	"weekName": "A TRUE NIGHTMARE"
+}

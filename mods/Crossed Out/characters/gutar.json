@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				-3
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE LEFT guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				-46
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				69,
+				35
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				22
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-17
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				71,
+				57
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF NOTE UP MISS guitar",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				22
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS guitar",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bf_Sans_4",
+	"position": [
+		-30,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-10,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
