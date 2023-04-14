@@ -1,4 +1,0 @@
-Makes the sans-spacebar-dodge event  
-
-Value 1 should be set to :
-"Do"    	-  Jeah, makes the dodge...
