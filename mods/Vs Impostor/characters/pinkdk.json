@@ -1,20 +1,9 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
-				-10,
-				-99
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "idle",
-			"indices": []
-		},
-		{
-			"offsets": [
-				72,
-				-168
+				1579,
+				-147
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				-111,
-				-13
+				-92,
+				-94
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-267,
-				-81
+				-67,
+				-183
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,33 +35,66 @@
 		},
 		{
 			"offsets": [
-				48,
-				-8
+				10,
+				-155
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-160
+			],
+			"anim": "slash",
+			"fps": 24,
+			"name": "shoot anim",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-99
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/pinko_for_duality",
 	"position": [
-		-320,
-		0
+		-40,
+		80
 	],
 	"healthicon": "pink",
 	"flip_x": false,
 	"healthbar_colors": [
-		58,
-		27,
-		79
+		255,
+		0,
+		255
 	],
 	"camera_position": [
 		-70,
 		110
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 1.2
 }

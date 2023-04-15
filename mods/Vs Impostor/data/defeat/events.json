@@ -1,0 +1,156 @@
+{
+	"song": {
+		"events": [
+			[
+				20393.75,
+				[
+					[
+						"flash",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				20396.875,
+				[
+					[
+						"Defeat Fade",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				20400,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf-defeat-scared"
+					]
+				]
+			],
+			[
+				34800,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf-defeat-scared"
+					]
+				]
+			],
+			[
+				87587.5,
+				[
+					[
+						"flash",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				87590.625,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf-defeatold"
+					]
+				]
+			],
+			[
+				87593.75,
+				[
+					[
+						"Change Character",
+						"dad",
+						"blackold"
+					]
+				]
+			],
+			[
+				87596.875,
+				[
+					[
+						"Defeat Retro",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				87600,
+				[
+					[
+						"DefeatDark",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				106800,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				107973.75,
+				[
+					[
+						"flash",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				107993.75,
+				[
+					[
+						"flash",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				107996.875,
+				[
+					[
+						"Defeat Retro",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"DefeatDark",
+						"0",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"pink"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf-defeat-scared"
+					]
+				]
+			]
+		]
+	}
+}

@@ -2,7 +2,18 @@
 	"songs": [
 		[
 			"double-kill",
-			"whiteblack",
+			"greenpink",
+			"bf",
+			[
+				80,
+				80,
+				80
+			]
+		],
+		[
+			"defeat",
+			"pink",
+			"bf",
 			[
 				80,
 				80,

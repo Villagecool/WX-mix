@@ -1,0 +1,5 @@
+Changes the icon of player/opponent
+
+v1 = character, if 'dad' then it will change opponent icon, otherwise it will change bf's icon
+
+v2 = icon file name, without 'icon-'

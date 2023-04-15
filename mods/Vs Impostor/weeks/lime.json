@@ -1,0 +1,44 @@
+{
+	"songs": [
+		[
+			"chlorophyll",
+			"lime",
+			"max",
+			[
+				102,
+				255,
+				102
+			]
+		],
+		[
+			"stargazer",
+			"lime",
+			"max",
+			[
+				102,
+				255,
+				102
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "lime",
+	"difficulties": "Normal",
+	"category": "Mods",
+	"weekCharacters": [
+		"lime",
+		"bf",
+		"gf"
+	],
+	"storyName": "Lime Green Jadspostor",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
