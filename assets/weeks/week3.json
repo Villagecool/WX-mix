@@ -1,0 +1,31 @@
+{
+	"songs": [
+		[
+			"Pico",
+			"pico",
+			"max",
+			[
+				90,
+				51,
+				123
+			]
+		]
+	],
+
+	"weekCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "philly",
+
+	"storyName": "Pico",
+	"weekBefore": "week2",
+	"difficulties": "Normal",
+	"weekName": "Week 3",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"category": "Story"
+}

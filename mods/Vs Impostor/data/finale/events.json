@@ -1,0 +1,96 @@
+{
+	"song": {
+		"events": [
+			[
+				4800,
+				[
+					[
+						"Finale Flashback Change",
+						"moog",
+						""
+					]
+				]
+			],
+			[
+				6000,
+				[
+					[
+						"Finale Flashback Change",
+						"toog",
+						""
+					]
+				]
+			],
+			[
+				7200,
+				[
+					[
+						"Finale Flashback Change",
+						"doog",
+						""
+					]
+				]
+			],
+			[
+				8400,
+				[
+					[
+						"Finale Flashback Change",
+						"flash",
+						""
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"HUD Fade",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				20400,
+				[
+					[
+						"Finale Drop",
+						"",
+						""
+					]
+				]
+			],
+			[
+				20409.375,
+				[
+					[
+						"Change Character",
+						"1",
+						"pinkparasite"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Finale Drop2",
+						"",
+						""
+					]
+				]
+			],
+			[
+				148800,
+				[
+					[
+						"Finale End",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

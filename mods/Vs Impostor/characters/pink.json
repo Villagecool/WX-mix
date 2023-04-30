@@ -3,30 +3,30 @@
 		{
 			"loop": false,
 			"offsets": [
-				1579,
-				-147
+				640,
+				213
 			],
-			"anim": "singDOWN",
+			"anim": "singLEFT",
 			"fps": 24,
-			"name": "down",
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				365,
+				30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-92,
-				-94
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-67,
-				-183
+				302,
+				172
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -36,65 +36,43 @@
 		{
 			"loop": false,
 			"offsets": [
-				10,
-				-155
+				301,
+				410
 			],
-			"anim": "singLEFT",
+			"anim": "singDOWN",
 			"fps": 24,
-			"name": "left",
+			"name": "down",
 			"indices": []
 		},
 		{
-			"offsets": [
-				0,
-				-160
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "slash",
-			"indices": [
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12
-			],
-			"name": "shoot anim"
-		},
-		{
 			"offsets": [
-				-10,
-				-99
+				524,
+				125
 			],
-			"loop": false,
+			"anim": "singUP",
 			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"name": "up",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/pinko_for_duality",
+	"image": "characters/pinko_in_defit",
 	"position": [
-		-40,
+		70,
 		80
 	],
 	"healthicon": "pink",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		0,
-		255
+		249,
+		149,
+		171
 	],
 	"camera_position": [
-		-1080,
-		60
+		-430,
+		-270
 	],
-	"sing_duration": 6.1,
-	"scale": 1.2
+	"sing_duration": 4,
+	"scale": 1
 }

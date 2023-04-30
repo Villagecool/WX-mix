@@ -1,68 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				-10,
-				673
+				150,
+				693
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "BLACK UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
 			"offsets": [
-				60,
-				-90
+				-200,
+				30
 			],
 			"loop": true,
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "abomination black idle instance 1"
+			"name": "idle"
 		},
 		{
 			"offsets": [
-				-484,
-				100
+				-694,
+				850
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "right ske instance 1"
+			"name": "right"
 		},
 		{
 			"offsets": [
-				276,
-				479
+				226,
+				359
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "black down instance 1"
+			"name": "down"
 		},
 		{
 			"offsets": [
-				726,
-				330
+				936,
+				950
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "left  instance 1"
+			"name": "left"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "Sus/blackparasite",
+	"image": "characters/actual_wx_black_parasite_pinko",
 	"position": [
 		-340,
 		-30
 	],
-	"healthicon": "black",
+	"healthicon": "pink",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,

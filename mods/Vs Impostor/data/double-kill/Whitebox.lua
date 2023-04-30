@@ -44,7 +44,7 @@ function onStepHit()
 if curStep == 1590 then
 doTweenAlpha('flashback', 'f', 0.3, 3)
 end
-if curStep == 3392 then
+if curStep == 3776 then
 doTweenAlpha('blackBox2', 'black', 1, 0.1, 'linear')
 doTweenAlpha('cargo', 'cargo', 0, 0.1, 'linear')
 doTweenAlpha('cargo wall', 'cargo wall', 0, 0.1, 'linear')
@@ -57,13 +57,13 @@ setProperty('healthBarBG.alpha', 0)
 setProperty('iconP1.alpha', 0)
 setProperty('iconP2.alpha', 0)
 end
-if curStep == 3920 then
+if curStep == 4288 then
 setProperty('red light.alpha', 0)
 setProperty('gf.alpha', 0)
 setProperty('boyfriend.alpha', 0)
 setProperty('red.alpha', 1)
 end
-if curStep == 3928 then
+if curStep == 4296 then
 doTweenAlpha('hud', 'camHUD', 0, 0.1 , 'linear')
 doTweenAlpha('red', 'red', 0, 1.5 , 'linear')
 end

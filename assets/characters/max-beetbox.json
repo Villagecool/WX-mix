@@ -2,18 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
-				40
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
-		},
-		{
-			"offsets": [
-				1,
+				-39,
 				29
 			],
 			"loop": false,
@@ -153,6 +142,28 @@
 			"anim": "scared",
 			"indices": [],
 			"name": "BF idle shaking"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				40
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				40
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "BF idle dance cool",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
