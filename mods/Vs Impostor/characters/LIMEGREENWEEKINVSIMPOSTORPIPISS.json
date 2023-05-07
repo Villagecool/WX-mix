@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				419,
+				-9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				-14
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				220,
+				91
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				140,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				510,
+				156
+			],
+			"anim": "dies",
+			"fps": 24,
+			"name": "dude dying",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				510,
+				19
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "dude ded loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				510,
+				20
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "retry",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wx_jad_pipiss",
+	"position": [
+		210,
+		400
+	],
+	"healthicon": "lime",
+	"flip_x": false,
+	"healthbar_colors": [
+		68,
+		78,
+		86
+	],
+	"camera_position": [
+		-260,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -24,6 +24,21 @@ function onCreate()
 	addLuaSprite('cargo', false);
 	setProperty('cargo.alpha', 0)
 
+	makeAnimatedLuaSprite('sandra','characters/sandra-suprised',2000, 450)
+	addAnimationByIndices('sandra','danceLeft','GF Dancing Beat', '30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14',24)
+	addAnimationByIndices('sandra','danceRight','GF Dancing Beat', '15,16,17,18,19,20,21,22,23,24,25,26,27,28,29',24)
+    objectPlayAnimation('sandra', 'danceLeft', true)
+    setProperty('sandra.flipX', true)
+    setProperty('sandra.alpha', 0)
+	addLuaSprite('sandra',false)
+
+end
+function onBeatHit()
+	if curBeat % 2 == 0 then
+        objectPlayAnimation('sandra', 'danceLeft', true)
+    else
+        objectPlayAnimation('sandra', 'danceRight', true)
+    end
 end
 function onCreatePost()
     setProperty('gf.alpha', 0);
@@ -36,13 +51,14 @@ if curStep == 16 then
 doTweenAlpha('whitebox', 'white', 1, 0.1, 'linear')
 end
 if curStep == 1431 then
-doTweenAlpha('cargo', 'cargo', 0, 1, 'linear')
+    doTweenAlpha('cargo', 'cargo', 0, 1, 'linear')
+    doTweenAlpha('sandra', 'sandra', 0, 1, 'linear')
 doTweenAlpha('cargo wall', 'cargo wall', 0, 1, 'linear')
-doTweenAlpha('white', 'dad', 0, 1, 'linear')
+triggerEvent('Change Character', 'dad', 'egg_boi')
 doTweenAlpha('black', 'gf', 0, 1, 'linear')
 doTweenAlpha('overlay', 'overlay', 0, 1, 'linear')
 end
-if curStep == 1685 then
+if curStep == 2048 then
 doTweenAlpha('blackBox', 'black', 1, 0.1, 'linear')
 end
 end
@@ -51,11 +67,13 @@ if tag == 'whitebox' then
 doTweenAlpha('whiteboxfade', 'white', 0, 0.1, 'linear')
 end
 if tag == 'blackBox' then
+    triggerEvent('Change Character', 'dad', 'greendk')
 doTweenAlpha('blackboxfade', 'black', 0, 0.1, 'linear')
 setProperty('cargo.alpha', 1)
 setProperty('cargo wall.alpha', 1)
 setProperty('dad.alpha', 1)
 setProperty('gf.alpha', 1)
+setProperty('sandra.alpha', 1)
 setProperty('overlay.alpha', 0.7)
 setProperty('f.alpha', 0)
 end
@@ -65,7 +83,8 @@ end
 end
 
 function onSongStart()
-doTweenAlpha('cargo', 'cargo', 1, 1, 'linear')
+    doTweenAlpha('cargo', 'cargo', 1, 1, 'linear')
+    doTweenAlpha('sandra', 'sandra', 1, 1, 'linear')
 doTweenAlpha('cargo wall', 'cargo wall', 1, 1, 'linear')
 doTweenAlpha('white', 'dad', 1, 1, 'linear')
 doTweenAlpha('black', 'gf', 1, 1, 'linear')

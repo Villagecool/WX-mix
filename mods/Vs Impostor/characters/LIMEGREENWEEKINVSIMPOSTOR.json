@@ -3,75 +3,75 @@
 		{
 			"loop": false,
 			"offsets": [
-				-59,
-				-4
+				279,
+				-29
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				211,
+				46
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "green right",
+			"name": "right",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-129,
-				-28
+				-29,
+				22
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "green down",
+			"name": "down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-80,
-				31
+				130,
+				101
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "green up",
+			"name": "up",
 			"indices": []
 		},
 		{
 			"offsets": [
-				0,
+				140,
 				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "green idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-64,
-				5
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "green left",
-			"indices": []
+			"name": "idle"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/LIME_GRTEEN",
+	"image": "characters/wx_jad",
 	"position": [
-		-180,
-		350
+		110,
+		400
 	],
 	"healthicon": "lime",
 	"flip_x": false,
 	"healthbar_colors": [
-		232,
-		120,
-		19
+		68,
+		78,
+		86
 	],
 	"camera_position": [
-		180,
-		60
+		-90,
+		0
 	],
 	"sing_duration": 4,
 	"scale": 1

@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf-psych",
+		"player1": "bf",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -7436,11 +7436,11 @@
 		"isMoody": false,
 		"sectionLengths": [],
 		"events": [],
-		"gfVersion": "gf",
+		"gfVersion": "gf-sandra-smol",
 		"allowBFskin": true,
 		"needsVoices": true,
 		"sections": 0,
-		"stage": "o2",
+		"stage": "security",
 		"uiType": "normal",
 		"gf": "gf",
 		"bpm": 180

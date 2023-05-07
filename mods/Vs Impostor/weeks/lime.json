@@ -19,12 +19,22 @@
 				255,
 				102
 			]
+		],
+		[
+			"shifted",
+			"lime",
+			"pink",
+			[
+				102,
+				255,
+				102
+			]
 		]
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "lime",
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"category": "Mods",
 	"weekCharacters": [
 		"lime",
@@ -38,7 +48,7 @@
 		113,
 		253
 	],
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"weekBefore": "tutorial",
 	"startUnlocked": true
 }

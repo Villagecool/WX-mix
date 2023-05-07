@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="suscoderded.png"><SubTexture name="suscoderded idle0000" x="0" y="0" width="243" height="202" frameX="-136" frameY="-161" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscoderded idle0001" x="0" y="395" width="246" height="188" frameX="-134" frameY="-173" frameWidth="483" frameHeight="368" />
+<SubTexture name="suscoderded idle0002" x="486" y="0" width="245" height="191" frameX="-135" frameY="-171" frameWidth="483" frameHeight="366" />
+<SubTexture name="suscoderded idle0003" x="0" y="202" width="242" height="193" frameX="-136" frameY="-170" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscoderded idle0004" x="243" y="0" width="243" height="198" frameX="-136" frameY="-165" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscoderded idle0005" x="0" y="0" width="243" height="202" frameX="-136" frameY="-161" frameWidth="483" frameHeight="363" />
+</TextureAtlas>

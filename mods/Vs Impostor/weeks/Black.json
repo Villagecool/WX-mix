@@ -2,7 +2,7 @@
 	"songs": [
 		[
 			"double-kill",
-			"greenpink",
+			"pinkgreen",
 			"bf",
 			[
 				80,
@@ -22,7 +22,7 @@
 		],
 		[
 			"finale",
-			"pink",
+			"pink-defeat",
 			"bf",
 			[
 				80,
@@ -33,7 +33,7 @@
 	],
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"difficulties": "Normal",
+	"difficulties": "Normal, Swapped",
 	"category": "Mods",
 	"weekCharacters": [
 		"dad",
@@ -48,6 +48,6 @@
 		253
 	],
 	"hideStoryMode": true,
-	"weekBefore": "tutorial",
+	"weekBefore": "lime",
 	"startUnlocked": true
 }

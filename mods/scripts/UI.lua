@@ -81,6 +81,10 @@ function onUpdatePost(elapsed)
 	setProperty('time.x', getProperty('timeBar.x') - 55)
 	setProperty('time.y', getProperty('timeBar.y') - 20)
 	setTextString('timeTxt', songName..' ('..timeBarTypes[timeBarType:lower()]()..')')
+	setProperty('Health.alpha', getProperty('healthBar.alpha'))
+	setProperty('time.alpha', getProperty('timeBar.alpha'))
+	setProperty('Health.visible', getProperty('healthBar.visible'))
+	setProperty('time.visible', getProperty('timeBar.visible'))
 end
 
 function onUpdateScore(miss)

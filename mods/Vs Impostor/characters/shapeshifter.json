@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				26,
+				-26
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "shifting loop"
+		},
+		{
+			"offsets": [
+				130,
+				1121
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pinko",
+			"indices": [],
+			"name": "shifting end"
+		},
+		{
+			"offsets": [
+				130,
+				1120
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-p",
+			"indices": [],
+			"name": "shifting end0063"
+		},
+		{
+			"offsets": [
+				370,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "fakejordans",
+			"loop": false,
+			"name": "start of shift"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shapeshifter",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		247,
+		1
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

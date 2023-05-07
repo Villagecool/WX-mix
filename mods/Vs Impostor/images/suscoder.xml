@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="suscoder.png"><SubTexture name="suscoder idle0000" x="271" y="0" width="273" height="346" frameX="-105" frameY="-14" frameWidth="480" frameHeight="361" />
+<SubTexture name="suscoder idle0001" x="272" y="347" width="276" height="345" frameX="-101" frameY="-15" frameWidth="480" frameHeight="365" />
+<SubTexture name="suscoder idle0002" x="544" y="0" width="276" height="346" frameX="-100" frameY="-15" frameWidth="480" frameHeight="366" />
+<SubTexture name="suscoder idle0003" x="0" y="0" width="271" height="347" frameX="-102" frameY="-14" frameWidth="480" frameHeight="361" />
+<SubTexture name="suscoder idle0004" x="0" y="347" width="272" height="346" frameX="-104" frameY="-14" frameWidth="480" frameHeight="361" />
+<SubTexture name="suscoder idle0005" x="271" y="0" width="273" height="346" frameX="-105" frameY="-14" frameWidth="480" frameHeight="361" />
+</TextureAtlas>

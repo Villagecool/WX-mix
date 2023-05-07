@@ -1,8 +1,8 @@
 {
 	"song": {
-		"player1": "bf-psych",
+		"player1": "bf",
 		"events": [],
-		"gfVersion": "gf",
+		"gfVersion": "gf-sandra-smol",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -3984,7 +3984,7 @@
 		"player2": "LIMEGREENWEEKINVSIMPOSTOR",
 		"player3": null,
 		"song": "Chlorophyll",
-		"stage": "o2",
+		"stage": "security",
 		"needsVoices": true,
 		"validScore": true,
 		"bpm": 140,

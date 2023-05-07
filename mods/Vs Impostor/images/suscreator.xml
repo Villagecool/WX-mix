@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="suscreator.png"><SubTexture name="suscreator idle0000" x="441" y="0" width="230" height="250" frameX="-127" frameY="-55" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscreator idle0001" x="237" y="257" width="243" height="242" frameX="-138" frameY="-63" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscreator idle0002" x="0" y="257" width="237" height="244" frameX="-133" frameY="-60" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscreator idle0003" x="0" y="0" width="222" height="257" frameX="-130" frameY="-51" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscreator idle0004" x="222" y="0" width="219" height="257" frameX="-132" frameY="-48" frameWidth="483" frameHeight="363" />
+<SubTexture name="suscreator idle0005" x="441" y="0" width="230" height="250" frameX="-127" frameY="-55" frameWidth="483" frameHeight="363" />
+</TextureAtlas>

@@ -27,7 +27,7 @@ function onCreate()
 	makeLuaSprite('bg', 'finale/bg', -1090, -530);
 	setScrollFactor('bg', 1, 1);
 	makeLuaSprite('splat', 'finale/splat', 70, 1200);
-	makeLuaSprite('fore', 'finale/fore', -1050, 160);
+	makeLuaSprite('fore', 'finale/fore', -1050, -160);
     setScrollFactor('fore', 1.1, 1.1);
   
 	makeLuaSprite('dark', 'finale/dark', -1020, -350);

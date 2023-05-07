@@ -65,38 +65,24 @@ function onCreate()
         setProperty('OverlayDead.x',getProperty('OverlayDead.x')+150)
         addLuaSprite('OverlayDead',true)
     end
-    if getRandomBool(1) then
-        BalledGameOver=true
-        setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-defeat-dead-balls')
-        setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'defeat_kill_ballz_sfx')
-    else
-        setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-defeat-dead')
+    --if getRandomBool(1) then
+    --    BalledGameOver=true
+    --    setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-defeat-dead-balls')
+    --    setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'defeat_kill_ballz_sfx')
+    --else
+        setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-dead-defeat')
         setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'defeat_kill_sfx')
-    end
-    setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameover_v4_LOOP')
-    setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameover_v4_End')
+    --end
+    --setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameover_v4_LOOP')
+    --setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameover_v4_End')
     
-    makeLuaSprite('CreditsBG',nil,-282,200)
-    makeGraphic('CreditsBG',282,150,'FFFFFF')
-    setProperty('CreditsBG.alpha',0.4)
-    setObjectCamera('CreditsBG','hud')
-    addLuaSprite('CreditsBG')
     Text=getTextFromFile('data/'..'defeat'..'/info.txt')
-    makeLuaText('CreditsTxt',Text,0,getProperty('CreditsBG.x')+12,getProperty('CreditsBG.y')+12)
-    setTextAlignment('CreditsTxt','left')
-    setTextSize('CreditsTxt',24)
-    setObjectCamera('CreditsTxt','hud')
-    addLuaText('CreditsTxt')
 end
 function onSectionHit()
     playAnim('DefeatBackv4','Beat')
 end
 function onCreatePost()
     setObjectOrder('dadGroup',getObjectOrder('boyfriendGroup')+1)
-    
-
-    setProperty('healthBar.alpha',0)
-    setProperty('timeTxt.visible',false)
 end
 function onGameOver()
     removeLuaScript('data/CameraMove.lua')
@@ -124,7 +110,6 @@ function onEndSong()
     end
 end
 function onUpdate(elapsed)
-    setProperty('timeBar.alpha',0)
     CustomEvent()
     if getProperty('boyfriend.curCharacter') =='bf-defeat-scared' then
         setProperty('DefeatBackDead.visible',true)
@@ -153,13 +138,6 @@ function onUpdate(elapsed)
         setProperty('DefeatBackOld.visible',false)
         SetScoreTxt()
     end
-    if not Credits and startedCountdown then
-        setProperty('CreditsTxt.x',Lerp(getProperty('CreditsTxt.x'),12,0.1))
-        setProperty('CreditsBG.x',Lerp(getProperty('CreditsBG.x'),0,0.1))
-    else
-        setProperty('CreditsTxt.x',Lerp(getProperty('CreditsTxt.x'),-282+12,0.1))
-        setProperty('CreditsBG.x',Lerp(getProperty('CreditsBG.x'),-282,0.1))
-    end
 end
 function GetRating()
     
@@ -185,11 +163,6 @@ function Set(tag,X,Y)
     end
  end
 function CustomEvent()
-    if curBeat >= 5 then
-        if getProperty('CreditsBG.x')>-0.9 then
-            Credits=true
-        end
-    end
     if curBeat == 16 then
         setProperty('defaultCamZoom',0.6)
     end
@@ -250,7 +223,10 @@ function CustomEvent()
     if curBeat == 472 then
         setProperty('defaultCamZoom',0.9)
     end
-    if curBeat == 488 then
+    if curBeat == 482 then
+        setProperty('defaultCamZoom',0.7)
+    end
+    if curBeat == 756 then
         setProperty('defaultCamZoom',50)
     end
 end

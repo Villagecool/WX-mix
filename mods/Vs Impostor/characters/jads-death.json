@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				510,
+				156
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "dude dying"
+		},
+		{
+			"offsets": [
+				510,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "dude ded loop"
+		},
+		{
+			"offsets": [
+				510,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "retry"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wx_jad_pipiss",
+	"position": [
+		210,
+		400
+	],
+	"healthicon": "lime",
+	"flip_x": true,
+	"healthbar_colors": [
+		68,
+		78,
+		86
+	],
+	"camera_position": [
+		-260,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
