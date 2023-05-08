@@ -1,5 +1,11 @@
 function onCreate()
 
+	addLuaScript('data/CameraMove.lua')
+    setGlobalFromScript('data/CameraMove','CamNoteMove',20)
+    setGlobalFromScript('data/CameraMove','CharcterMove',{dad=10,bf=10})
+    setGlobalFromScript('data/CameraMove','ManualCharacterPos',{dad={1100,1200},bf={1500,1200}})
+    setGlobalFromScript('data/CameraMove','CharacterForce',true)
+
 	makeLuaSprite('cams', 'SecCams', 400, 600);
 	scaleLuaSprite('cams', 0.8, 0.8)
 	addLuaSprite('cams', false);
@@ -40,12 +46,13 @@ function onCreate()
 
 end
 function onCreatePost()
-	setObjectOrder('walls', getObjectOrder('gfGroup')+1)
-	setObjectOrder('Fans', getObjectOrder('gfGroup')+1.1)
-	setObjectOrder('switch', getObjectOrder('gfGroup')+1.2)
-	setObjectOrder('dude2', getObjectOrder('gfGroup')+1)
-	setObjectOrder('ded', getObjectOrder('gfGroup')+1)
-	setObjectOrder('switch2', getObjectOrder('gfGroup')+1)
+	setObjectOrder('walls', 8)
+	setObjectOrder('Fans', 8)
+	setObjectOrder('switch', 8)
+	setObjectOrder('dude2', 8)
+	setObjectOrder('ded', 8)
+	setObjectOrder('switch2', 8)
+	setObjectOrder('gf', 1)
 end
 local superBop = true
 function onBeatHit()
