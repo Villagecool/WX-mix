@@ -1,92 +1,103 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				419,
 				-9
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				181,
 				-14
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				181,
 				-18
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				220,
 				91
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				140,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				510,
 				156
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "dies",
-			"fps": 24,
-			"name": "dude dying",
-			"indices": []
+			"indices": [],
+			"name": "dude dying"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				510,
-				19
-			],
-			"anim": "deathLoop",
-			"fps": 24,
-			"name": "dude ded loop",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				510,
 				20
 			],
-			"anim": "deathConfirm",
+			"loop": false,
 			"fps": 24,
-			"name": "retry",
-			"indices": []
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "dude ded loop"
+		},
+		{
+			"offsets": [
+				510,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "retry"
+		},
+		{
+			"offsets": [
+				220,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodge",
+			"loop": false,
+			"name": "dodge"
 		}
 	],
 	"no_antialiasing": false,

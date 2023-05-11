@@ -31,7 +31,6 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "lime",
 	"difficulties": "Normal, Swapped",
@@ -49,6 +48,6 @@
 		253
 	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
+	"weekBefore": "dnb",
 	"startUnlocked": true
 }

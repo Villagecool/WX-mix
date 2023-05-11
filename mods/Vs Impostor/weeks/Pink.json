@@ -1,0 +1,53 @@
+{
+	"songs": [
+		[
+			"double-kill",
+			"pinkgreen",
+			"bf",
+			[
+				80,
+				80,
+				80
+			]
+		],
+		[
+			"defeat",
+			"pink",
+			"bf",
+			[
+				80,
+				80,
+				80
+			]
+		],
+		[
+			"finale",
+			"pink-defeat",
+			"bf",
+			[
+				80,
+				80,
+				80
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Normal, Swapped",
+	"category": "Mods",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "lime",
+	"startUnlocked": true
+}

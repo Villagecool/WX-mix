@@ -14,12 +14,22 @@ function onCreate()
 	end
 end
 
+local dodgeAnims = {"dodgeLEFT", "dodgeDOWN", "dodgeUP", "dodgeRIGHT"}
 function goodNoteHit(id, direction, noteType, isSustainNote)
 	if noteType == 'Bullet Note' then
 			playSound('hankshoot', 0.5);
-		characterPlayAnim('gf', 'slash', true);
-		setProperty('gf.specialAnim', true);
+			if getProperty('gf.curCharacter') == 'pinkdk' then
+				characterPlayAnim('gf', 'slash', true);
+				setProperty('gf.specialAnim', true);
+			else
+				characterPlayAnim('dad', 'shoot', true);
+				setProperty('dad.specialAnim', true);
+			end
+			if getProperty('boyfriend.curCharacter') == 'bf' or getProperty('boyfriend.curCharacter') == 'bf-defeat-scared' then
+				characterPlayAnim('boyfriend', dodgeAnims[direction + 1], true);
+			else
 		characterPlayAnim('boyfriend', 'dodge', true);
+			end
 		setProperty('boyfriend.specialAnim', true);
 		cameraShake('camGame', 0.01, 0.2);
     end

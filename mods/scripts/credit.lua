@@ -97,8 +97,8 @@ end
 function onTweenCompleted(t)
     if t == 'moveOutBG' then
         removeLuaSprite('credsBG', false)
-        removeLuaSprite('credsTxt', false)
-        removeLuaSprite('credsTxt2', false)
+        removeLuaText('credsTxt', false)
+        removeLuaText('credsTxt2', false)
         removeLuaSprite('credsCompose', false)
         removeLuaSprite('credsMod', false)
     end

@@ -38,18 +38,24 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	end
 end
 end
-function onUpdate(e)
+local dodgeAnims = {"dodgeLEFT", "dodgeDOWN", "dodgeUP", "dodgeRIGHT"}
+function onUpdatePost(e)
     for i = 0, getProperty('notes.length')-1 do
 		if getPropertyFromGroup('notes', i, 'noteType') == 'Knife' then
-			local strumTime = getPropertyFromGroup('notes', i, 'strumTime')
-			local distance = strumTime - getSongPosition();
-			local animDone = false
+			strumTime = getPropertyFromGroup('notes', i, 'strumTime')
+			direction = getPropertyFromGroup('notes', i, 'noteData')
+			distance = strumTime - getSongPosition();
+			animDone = false
 			if distance >= 10 and distance <= 20 and not animDone then
 				animDone = true
 				setProperty('health', getProperty('health') +0.0475);
 				characterPlayAnim('dad', 'slash', true);
 				setProperty('dad.specialAnim', true);
-				characterPlayAnim('boyfriend', 'dodge', true);
+				if getProperty('boyfriend.curCharacter') == 'bf' or getProperty('boyfriend.curCharacter') == 'bf-defeat-scared' then
+					characterPlayAnim('boyfriend', dodgeAnims[direction + 1], true);
+				else
+					characterPlayAnim('boyfriend', 'dodge', true);
+				end
 				setProperty('boyfriend.specialAnim', true);
 			end
 		end
