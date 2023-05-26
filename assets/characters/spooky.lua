@@ -16,11 +16,11 @@ end
 function onCreate()
 	makeOffsets()
 	makeAnimatedLuaSprite('Wyatt','characters/Wyatt',getProperty('dad.x')+100,getProperty('dad.y')-50)
-	addAnimationByPrefix('Wyatt','idle','WyattIdleAlt',24,false)
-	addAnimationByPrefix('Wyatt','singLEFT','WyattLeftAlt',24,false)
-	addAnimationByPrefix('Wyatt','singDOWN','WyattDownAlt',24,false)
-	addAnimationByPrefix('Wyatt','singUP','WyattUpAlt',24,false)
-	addAnimationByPrefix('Wyatt','singRIGHT','WyattRightAlt',24,false)
+	addAnimationByPrefix('Wyatt','idle','WyattIdle',24,false)
+	addAnimationByPrefix('Wyatt','singLEFT','WyattLeft',24,false)
+	addAnimationByPrefix('Wyatt','singDOWN','WyattDown',24,false)
+	addAnimationByPrefix('Wyatt','singUP','WyattUp',24,false)
+	addAnimationByPrefix('Wyatt','singRIGHT','WyattRight',24,false)
 
 	
 	addAnimationByPrefix('Wyatt','singLEFT-alt','WyattLeftAlt',24,false)

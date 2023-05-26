@@ -6,8 +6,7 @@ function onCreatePost()
     objectPlayAnimation('max', 'idle', true)
 	scaleLuaSprite('max', 0.7, 0.7)
 	addLuaSprite('max', false);
-	setObjectOrder('max', 4)
-	setObjectOrder('gf', 2)
+	setObjectOrder('max', 2)
 end
 function onTweenCompleted(t)
     if t == 'MaxWalkin' then

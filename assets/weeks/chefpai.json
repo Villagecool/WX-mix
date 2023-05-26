@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Senpai", "senpai-pixel", "bf-pixel", [234, 1, 255]],
+		["Sauces Moogus", "senpai-pixel", "bf-pixel", [234, 1, 255]]
+	],
+
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "kitchen",
+
+	"difficulties": "Normal, Swapped",
+	"storyName": "Cookin lmao",
+	"category": "extra",
+	"weekName": "Cookin lmao",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

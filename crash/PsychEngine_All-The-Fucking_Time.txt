@@ -1,0 +1,6 @@
+You Suck
+
+Uncaught Error: [file_contents,in/your/ass]
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng

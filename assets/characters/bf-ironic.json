@@ -1,70 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-5,
-				0
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-85,
+				-130
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
-		},
-		{
-			"offsets": [
-				-25,
-				-6
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "BF NOTE LEFT0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-55,
-				-5
-			],
-			"anim": "hey",
-			"fps": 24,
-			"name": "BF HEY",
+			"name": "BF idle dance",
 			"indices": []
 		},
 		{
-			"offsets": [
-				-20,
-				-51
-			],
 			"loop": false,
+			"offsets": [
+				145,
+				-166
+			],
+			"anim": "singLEFT",
 			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-281
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "BF NOTE DOWN0"
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-36,
-				7
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-56,
+				167
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "BF NOTE UP0"
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-48,
-				-7
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-118,
+				-167
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

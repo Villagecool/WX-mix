@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.6,
+		"stage": "halloween3",
+		"player1": "bf",
+		"player2": "spookykids3",
+		"player3": null,
+		"events": [
+			[
+				120685.714285714,
+				[
+					[
+						"Change Character",
+						"dad",
+						"spookykidscorrupted"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 175,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Chiller"
+	}
+}

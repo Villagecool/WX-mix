@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="evil SpookyKidrs.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="OliverIdle instancia 10000" x="0" y="0" width="331" height="419" frameX="-4" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10001" x="0" y="0" width="331" height="419" frameX="-4" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10002" x="331" y="0" width="338" height="418" frameX="0" frameY="-2" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10003" x="331" y="0" width="338" height="418" frameX="0" frameY="-2" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10004" x="669" y="0" width="323" height="419" frameX="-9" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10005" x="669" y="0" width="323" height="419" frameX="-9" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10006" x="0" y="419" width="319" height="420" frameX="-8" frameY="0" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10007" x="0" y="419" width="319" height="420" frameX="-8" frameY="0" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10008" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10009" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10010" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10011" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10012" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10013" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10014" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+	<SubTexture name="OliverIdle instancia 10015" x="319" y="419" width="318" height="419" frameX="-8" frameY="-1" frameWidth="338" frameHeight="420"/>
+</TextureAtlas>

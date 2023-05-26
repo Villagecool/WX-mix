@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf-defeat-normal",
-		"player2": "pink",
+		"player2": "pink-weak",
 		"notes": [
 			{
 				"lengthInSteps": 16,

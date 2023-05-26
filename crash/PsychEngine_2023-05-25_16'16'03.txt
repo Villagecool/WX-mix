@@ -1,0 +1,19 @@
+C:\HaxeToolkit\haxe\std/haxe/format/JsonParser.hx (line 318)
+C:\HaxeToolkit\haxe\std/haxe/format/JsonParser.hx (line 115)
+C:\HaxeToolkit\haxe\std/haxe/format/JsonParser.hx (line 90)
+C:\HaxeToolkit\haxe\std/haxe/format/JsonParser.hx (line 57)
+WeekData.hx (line 229)
+WeekData.hx (line 197)
+WeekData.hx (line 185)
+FreeplayState.hx (line 72)
+flixel/FlxGame.hx (line 642)
+flixel/FlxGame.hx (line 729)
+flixel/FlxGame.hx (line 682)
+flixel/FlxGame.hx (line 550)
+openfl/events/EventDispatcher.hx (line 402)
+openfl/display/DisplayObject.hx (line 1399)
+
+Uncaught Error: Invalid char 91 at position 63
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng
