@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sandra_vibinn.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF_Idle0000" x="0" y="0" width="352" height="445" frameX="-1" frameY="0" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0001" x="352" y="0" width="341" height="441" frameX="0" frameY="-4" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0002" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0003" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0004" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0005" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0006" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0007" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0008" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0009" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0010" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0011" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0012" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0013" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0014" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0015" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0016" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0017" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0018" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0019" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0020" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0021" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0022" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+	<SubTexture name="GF_Idle0023" x="0" y="445" width="339" height="443" frameX="0" frameY="-2" frameWidth="353" frameHeight="445"/>
+</TextureAtlas>

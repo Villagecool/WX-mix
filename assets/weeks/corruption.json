@@ -1,9 +1,9 @@
 {
 	"songs": [
-		["Chiller", "c-bois", "cbf", [234, 1, 255]],
-		["Schizophrenzy", "c-mom", "cbf", [234, 1, 255]],
-		["Deathmatch", "c-dad", "call", [234, 1, 255]],
-		["Estranged", "c-gf", "bf", [234, 1, 255]]
+		["Chiller", "bois-c", "bf-c", [24, 1, 40]],
+		["Schizophrenzy", "mom-c", "bf-c", [24, 1, 40]],
+		["Deathmatch", "dad-c", "all-c", [24, 1, 40]],
+		["Estranged", "sandra-c", "bf", [24, 1, 40]]
 	],
 
 	"weekCharacters": [

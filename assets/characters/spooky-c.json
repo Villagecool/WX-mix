@@ -1,128 +1,73 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "OliverIdleAlt",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"anim": "idle",
-			"fps": 24,
-			"name": "OliverIdle0",
-			"indices": []
+			"indices": [],
+			"name": "OliverIdle0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				-10
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "OliverDown0",
-			"indices": []
+			"indices": [],
+			"name": "OliverDown0"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				-10,
-				-10
-			],
-			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "OliverDownAlt",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				0,
 				10
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "OliverUp0",
-			"indices": []
+			"indices": [],
+			"name": "OliverUp0"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				20,
 				10
 			],
-			"anim": "singUP-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "OliverUpAlt",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "OliverLeft0"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-20,
-				0
+				-3,
+				-2
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "OliverRight0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-10,
-				0
-			],
-			"anim": "singRIGHT-alt",
-			"fps": 24,
 			"name": "OliverRightAlt",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				20,
-				10
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "OliverLeft0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				20,
-				10
-			],
-			"anim": "singLEFT-alt",
-			"fps": 24,
-			"name": "OliverLeftAlt",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Oliver",
+	"image": "characters/evil/GonnerOliver",
 	"position": [
 		0,
 		330
 	],
-	"healthicon": "bois",
+	"healthicon": "bois-c",
 	"flip_x": false,
 	"healthbar_colors": [
-		90,
-		51,
-		132
+		28,
+		27,
+		49
 	],
 	"camera_position": [
 		0,

@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				38,
+				-19
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "GF_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/evil/sandra_vibinn",
+	"position": [
+		50,
+		360
+	],
+	"healthicon": "sandra-c",
+	"flip_x": false,
+	"healthbar_colors": [
+		28,
+		27,
+		49
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
